@@ -1,0 +1,83 @@
+@import "fonts.scss";
+@import "mixins.scss";
+
+.slider {
+    background-image: url('/img/Layer_3.jpg');
+    height: 692px;
+}
+.button__shop {
+    @include button();
+    width: 189px;
+    height: 54px;
+    background-color: #f09d66;
+    font: {
+        family: 'Lato-Bold';
+        size: 18px;
+    }
+    text-transform: uppercase;
+    color: $font-color2;
+    position: relative;
+    top: 55px;
+    left: 624px;
+    border: none;
+
+}
+.slider__square {
+    width: 278px;
+    height: 278px;
+    margin-bottom: 100px;
+    padding: 5px;
+    border: 2px $font-color2 solid;
+    position: relative;
+    top: 141px;
+    left: 590px;
+}
+.slider__square-inner {
+    widows: 100px;
+    border: 1px $font-color2 solid;
+    // position: relative;
+    // top: 10px;
+    // left: 8px;
+}
+.slider__title-one {
+    padding-top: 30px;
+    text-align: center;
+    font: {
+        family: 'Lato-Bold';
+        size: 15px;
+    }
+    text-transform: uppercase;
+    color: $font-color2;
+}
+.slider__title-second {
+    margin-top: 38px;
+    text-align: center;
+    font: {
+        family: 'Lato-Bold';
+        size: 43px;
+    }
+    text-transform: uppercase;
+    color: $font-color1;
+}
+.slider__title-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+.slider__title-left {
+    // width: 60px;
+    border-top-width: 33px;
+    border-top: 1px $font-color2 solid;
+    color: $font-color2;
+    // border-bottom-width: 60px;
+    // border-bottom: 1px $font-color2 solid;
+}
+.slider__title_center {
+    text-align: center;
+    font: {
+        family: 'Lato-Bold';
+        size: 15px;
+    }
+    text-transform: uppercase;
+    color: $font-color2;
+}

@@ -1,0 +1,11 @@
+@import "nullstyle.scss";
+@import "header.scss";
+@import "slider.scss";
+
+body {
+    width: 1440px;
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}

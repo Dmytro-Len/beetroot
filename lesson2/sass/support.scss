@@ -1,0 +1,15 @@
+@import "variables.scss";
+@import "fonts.scss";
+
+.support {
+    display: flex;
+}
+.support__left-label {
+    display: flex;
+    z-index: 1;
+}
+.support__left-label-airplane {
+    display: flex;
+    z-index: 2;
+
+}
