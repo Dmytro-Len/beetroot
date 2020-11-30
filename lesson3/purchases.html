@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase List</title>
+    <!-- <audio src="/audio/Jingle_Bells.mp3" autoplay></audio> -->
+    <style>
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 450px;
+            background-color: rgb(202, 202, 202);
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        h1 {
+            color: rgb(29, 26, 26);
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+        }
+        input[type="checkbox"]{
+            width: 20px;
+            height: 25px;
+            margin-right: 10px;
+           
+        }
+        input[type="checkbox"]:checked + label{
+            color: darkslategrey;
+            text-decoration: line-through;
+        }
+        label {
+            font-size: 40px;
+            color: rgb(18, 18, 19);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Purchase List</h1>
+        <ul>
+            <li>
+                <input type="checkbox" id="first" name="first">
+                <label for="first">Bananas</label>
+            </li>
+            <li>
+                <input type="checkbox" id="second" name="second">
+                <label for="second">Peaches</label>
+            </li>
+            <li>
+                <input type="checkbox" id="third" name="third">
+                <label for="third">Grapes</label>
+            </li>
+            <li>
+                <input type="checkbox" id="fourth" name="fourth">
+                <label for="fourth">Apples</label>
+            </li>
+            <li>
+                <input type="checkbox" id="fifth" name="fifth">
+                <label for="fifth">Mandarins</label>
+            </li>
+            <li>
+                <input type="checkbox" id="sixth" name="sixth">
+                <label for="sixth">Oranges</label>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
