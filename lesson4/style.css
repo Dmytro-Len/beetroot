@@ -7,6 +7,8 @@ body {
     margin-right: auto;
     width: 951px;
     background-color: #990909;
+    font-size: 18px;
+    padding-bottom: 20px;
 }
 p {
     margin: 0;
@@ -18,13 +20,13 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
 }
 .navigation {
     margin-left: 5px;
     margin-top: 10px;
     background-color: #000000;
     color: white;
-    font-size: 18px;
 }
 .item {
     display: inline-block;
@@ -33,7 +35,10 @@ ul {
     margin-right: 30px;
     text-align: center;
 }
-
+.item > a {
+    color: white;
+    text-decoration: none;
+}
 .copyright {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -44,4 +49,47 @@ ul {
     background-color: #e95b11;
     color: white;
     font-size: 20px;
+}
+table {
+    margin-left: 10px;
+}
+.column1 {
+    width: 205px;
+    margin-top: 2px;
+    padding-top: 0;
+    padding-bottom: 150px;
+    background-color: #7d0909;
+}
+.column1 > a {
+    display: block;
+    color: #cd490e; 
+    line-height: 40px;
+}
+.column2 {
+    width: 600px;
+    color: white;
+}
+.column3 {
+    padding-bottom: 20px;
+    width: 170px;
+    background-color: #e3dddd;
+}
+.title {
+    background-color: #bdbdbd;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+h5 {
+     margin-bottom: 10px;
+}
+hr {
+    display: block;
+    width: 90px;
+    margin-top: 5px;
+}
+.column3 > hr {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
