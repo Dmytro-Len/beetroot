@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+footer {
+    width: 1920px;
+    
+    background-color: black;
+}
+.box {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 39px;
+}
+.logo {
+    width: 112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social {
+    width: 200px;
+    margin-top: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 17px;
+    color: white;
+    border-bottom: 1px white solid;
+}
+td {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
