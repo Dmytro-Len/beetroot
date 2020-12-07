@@ -25,7 +25,12 @@ header {
     background-color: #4a4f56;
 }
 /*main block*/
-
+label {
+    padding-right: 300px;
+}
+label::after {
+    content: "";
+}
 .middle input, .middle label {
     vertical-align: middle;
 }
@@ -78,7 +83,6 @@ li.middle:hover {
 li.middle:active {
     background-color: rgb(150, 95, 122);
  }
-
 
 /*button*/
 button {
