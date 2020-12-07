@@ -1,47 +1,8 @@
+/*global styles*/
 * {transition: all .1s ease-in;}
 ul {
     padding-inline-start: 0;
 }
-.container {
-    background-color: #3b3f45;
-    margin: 20px;
-    padding-bottom: 50px;
-}
-header {
-    padding: 10px 0 10px 0;
-    background-color: #4a4f56;
-}
-input, label {
-    vertical-align: baseline;
-}
-.middle input, .middle label {
-    vertical-align: middle;
-}
-input[type=checkbox] {
-    width: 25px;
-    height: 25px;
-}
-main {
-    padding-top: 50px;
-}
-/* ul {
-    padding-left: 10px;
-} */
-li {
-    box-sizing: border-box;
-    list-style-type: none;
-    padding: 10px 0 10px 0;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    color: #fff;
-}
-
-li:hover {
-    background-color: #625e77;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-}
-
 h1, h3 {
     color: #eb7e7f;
     text-align: center;
@@ -54,6 +15,44 @@ h3 {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-size: 18px;
 }
+.container {
+    background-color: #3b3f45;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+header {
+    padding: 10px 0 10px 0;
+    background-color: #4a4f56;
+}
+/*main block*/
+
+.middle input, .middle label {
+    vertical-align: middle;
+}
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+}
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+    color: #7a7593;
+}
+main {
+    padding-top: 50px;
+}
+li {
+    list-style-type: none;
+    padding: 10px 0 10px 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #fff;
+}
+
+li:hover {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
 /*dinner-list*/
 .dinner-list-wrapper {
     width: 804px;
@@ -72,13 +71,14 @@ ul .middle:nth-child(4),
 ul .middle:nth-child(6) {
     background-color: #7a7593;
 }
-input[type=checkbox]:checked + label {
-    text-decoration: line-through;
-    color: #7a7593;
+li.middle:hover {
+    background-color: #7a7593;
 }
+
 li.middle:active {
-   background-color: rgb(150, 95, 122);
-}
+    background-color: rgb(150, 95, 122);
+ }
+
 
 /*button*/
 button {
@@ -90,6 +90,9 @@ button {
     background-color: #4a4f56;
     border: none;
     cursor: pointer;
+}
+button:active {
+    background-color: rgb(150, 95, 122);
 }
 .btn-title h3{
     margin: 10px 0 10px 0;
