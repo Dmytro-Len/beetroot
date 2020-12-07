@@ -1,4 +1,11 @@
 /*global styles*/
+.container {
+    width: auto;
+    height: 1000px;
+    margin: 20px;
+    background-color: #3b3f45;
+}
+
 * {transition: all .1s ease-in;}
 ul {
     padding-inline-start: 0;
@@ -15,23 +22,15 @@ h3 {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-size: 18px;
 }
-.container {
-    background-color: #3b3f45;
-    margin: 20px;
-    padding-bottom: 50px;
-}
 header {
     padding: 10px 0 10px 0;
     background-color: #4a4f56;
 }
 /*main block*/
 label {
-    padding-right: 300px;
+    padding-right: 350px;
 }
-label::after {
-    content: "";
-}
-.middle input, .middle label {
+input, label {
     vertical-align: middle;
 }
 input[type=checkbox] {
@@ -40,7 +39,38 @@ input[type=checkbox] {
 }
 input[type=checkbox]:checked + label{
     text-decoration: line-through;
-    color: #7a7593;
+    color: #c4c3c9;
+}
+
+span.item1:after {
+    content: " ( for the next lessons about CSS )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item2:after {
+    content: " ( for more CSS manipulations )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item3:after {
+    content: " ( because they are awesome )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item4:after {
+    content: " ( hm... they always disappear )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item5:after {
+    content: "";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item6:after {
+    content: " ( for my friends )";
+    color: #aca9b8;
+    font-size: 16px;
 }
 main {
     padding-top: 50px;
@@ -61,11 +91,9 @@ li:hover {
 /*dinner-list*/
 .dinner-list-wrapper {
     width: 804px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 0 auto;
 }
-.dinner-list {
-    width: 100%;
-}
+/*  */
 ul .middle:nth-child(1),
 ul .middle:nth-child(3),
 ul .middle:nth-child(5) {
@@ -89,7 +117,7 @@ button {
     display: block;
     width: 800px;
     height: 80px;
-    margin: 50px auto 20px auto;
+    margin: 50px auto 0 auto;
     padding: 10px 0 10px 0;
     background-color: #4a4f56;
     border: none;
