@@ -1,0 +1,130 @@
+/*global styles*/
+.container {
+    display: block;
+    width: 98%;
+    height: 98%;
+    margin: 20px;
+    background-color: #3b3f45;
+}
+
+* {transition: all .1s ease-in;}
+ul {
+    padding-inline-start: 0;
+}
+h1, h3 {
+    color: #eb7e7f;
+    text-align: center;
+}
+h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 28px;
+}
+h3 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 18px;
+}
+header {
+    padding: 10px 0 10px 0;
+    background-color: #4a4f56;
+}
+/*main block*/
+label {
+    padding-right: 350px;
+}
+input, label {
+    vertical-align: middle;
+}
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+}
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+    color: #c4c3c9;
+}
+
+span.item1:after {
+    content: " ( for the next lessons about CSS )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item2:after {
+    content: " ( for more CSS manipulations )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item3:after {
+    content: " ( because they are awesome )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item4:after {
+    content: " ( hm... they always disappear )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item5:after {
+    content: "";
+    color: #aca9b8;
+    font-size: 16px;
+}
+span.item6:after {
+    content: " ( for my friends )";
+    color: #aca9b8;
+    font-size: 16px;
+}
+li {
+    list-style-type: none;
+    padding: 10px 0 10px 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #fff;
+}
+
+li:hover {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*dinner-list*/
+form {
+    width: 804px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+ul .middle:nth-child(1),
+ul .middle:nth-child(3),
+ul .middle:nth-child(5) {
+    background-color: #88839e;
+}
+ul .middle:nth-child(2),
+ul .middle:nth-child(4),
+ul .middle:nth-child(6) {
+    background-color: #7a7593;
+}
+li.middle:hover {
+    background-color: #7a7593;
+}
+
+li.middle:active {
+    background-color: rgb(150, 95, 122);
+ }
+
+/*button*/
+button {
+    display: block;
+    width: 804px;
+    height: 80px;
+    margin: 50px auto 0 auto;
+    padding: 10px 0 10px 0;
+    background-color: #4a4f56;
+    border: none;
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(150, 95, 122);
+}
+.btn-title h3{
+    margin: 10px 0 10px 0;
+}
