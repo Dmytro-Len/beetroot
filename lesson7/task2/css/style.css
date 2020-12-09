@@ -37,7 +37,7 @@ i {
     width: 900px;
     margin: 25px auto;
 }
-.row1 {
+/* .row1 {
     display: inline-block;
     width: 900px;
     font-size: 0;
@@ -56,7 +56,7 @@ i {
     display: inline-block;
     width: 900px;
     font-size: 0;
-}
+} */
 
 .item {
     display: inline-block;
@@ -110,4 +110,12 @@ i {
 }
 .wrapper:hover .item:not(:hover){
     opacity: 0.5;
+}
+ul {
+    box-sizing: border-box;
+    width: 900px;
+    font-size: 0;
+    border: 5px solid white;
+    /* padding-inline-start: 0;
+    margin-block-start: 0; */
 }
