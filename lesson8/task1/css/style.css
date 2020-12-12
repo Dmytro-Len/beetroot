@@ -1,8 +1,6 @@
 .container {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
     width: 1200px;
     height: 600px;
@@ -11,6 +9,7 @@
     background-color: rgb(245, 199, 131);
 }
 .card {
+    flex-basis: 400px;
     height: 441px;
     background-color: #ffffff;
     margin: 0 15px;
@@ -27,7 +26,7 @@ h2 {
 }
 h3 {
     margin: 38px 0 0;
-font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-size: 36px;
     line-height: 1.3;
     letter-spacing: 0.5px;
