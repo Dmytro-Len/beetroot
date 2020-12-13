@@ -19,7 +19,7 @@ main {
     padding: 140px 138px 120px 121px;
     background-color: var(--white);
     box-shadow: 0px 4px 68px 0 rgba(0, 0, 0, 0.1);
-    border: 2px solid #000000;
+    /* border: 2px solid #000000; */
 }
 
 h1 {
