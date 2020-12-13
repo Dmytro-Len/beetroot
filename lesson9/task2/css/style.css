@@ -1,0 +1,97 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(/task2/fonts/ProximaNovaRegular.otf);
+}
+
+@font-face {
+    font-family: FuturaPT-Bold;
+    src: url(/task2/fonts/FuturaPT-Bold.woff);
+}
+/*variables*/
+:root {
+    --color-first: #000;
+    --color-second: #fff;
+    --font-title: 'Playfair Display', serif;
+
+}
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 100px auto;
+    border: 2px dotted #000000;
+}
+.title {
+    width: 876px;
+    height: 188px;
+    margin: 47px 0 0 324px;
+    background-color: #181818;
+}
+.format {
+    width: 812px;
+    height: 76px;
+    margin: 0 0 auto auto;
+    background-color: #fbc02d;;
+}
+main {
+    margin: 41px auto auto 195px;
+}
+
+h2 {
+    margin-top: 47px;
+    margin-bottom: 0;
+    font-family: FuturaPT-Bold;
+    text-transform: uppercase;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 0.94;
+    letter-spacing: 4.13px;
+    /* text-align: left; */
+    color: var(--color-first);
+}
+
+h3 {
+    font-family: ProximaNova;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4.38px;
+    text-align: left;
+    color: #b4b4b4;
+}
+
+h4 {
+    margin-top: 21px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 2.07;
+    text-align: justify;
+    color: #8f8f8f;
+}
+label {
+    margin: 50px auto 0 63px;
+    text-transform: uppercase;
+    font-family: ProximaNova;
+    font-size: 15px;
+    line-height: 7.27;
+    letter-spacing: 4.8px;
+    color: #767676;
+}
+input {
+    display: block;
+    margin: 10px auto auto 20px;
+}
+
+.top {
+    width: 806px;
+    text-align: justify;
+    margin: 55px auto 39px 0;
+    font-family: Georgia;
+    font-size: 27px;
+    line-height: 1.48;
+    text-align: justify;
+    color: var(--color-first);
+}
+.bottom {
+    margin-top: 39px;
+}
