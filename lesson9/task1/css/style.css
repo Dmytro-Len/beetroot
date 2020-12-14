@@ -7,23 +7,23 @@ font-family: 'Playfair Display', serif;
 }
 
 .container {
-    width: auto;
+    width: 1600px;
     height: 1200px;
     margin: 0 auto;
 }
 
 main {
+    box-sizing: border-box;
     width: 1400px;
     height: 940px;
-    margin: 130px 100px;
-    padding: 140px 138px 120px 121px;
+    margin: 130px auto;
+    padding: 140px 138px 0 121px;
     background-color: var(--white);
     box-shadow: 0px 4px 68px 0 rgba(0, 0, 0, 0.1);
-    /* border: 2px solid #000000; */
 }
 
 h1 {
-    margin: 0 900px 38px 2px;
+    margin-top: 0;
     font-family: 'Playfair Display', serif;
     font-size: 42px;
     font-weight: 500;
@@ -39,8 +39,8 @@ p {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.89;
-    letter-spacing: -0.09px;
-    text-align: left;
+    letter-spacing: 0.9px;
+    text-align: justify;
     color: rgba(23, 23, 23, 0.7);
 }
 
@@ -56,7 +56,7 @@ p {
 .main-letter {
     width: 62px;
     height: 79px;
-    margin: -20px 30px 40px -2px;
+    margin: -10px 30px 40px -2px;
     float: left;
     font-family: 'Playfair Display', serif;
     font-size: 110px;
