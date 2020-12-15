@@ -1,0 +1,143 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNovaRegular.otf);
+}
+@font-face {
+    font-family: FuturaPT-Bold;
+    src: url(../fonts/FuturaPT-Bold.woff);
+}
+/*variables*/
+:root {
+    --color-first: #000;
+    --color-second: #fff;
+    --font-title: 'Playfair Display', serif;
+
+}
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 100px auto;
+    position: relative;
+}
+header {
+    margin-top: 0;
+    padding-top: 47px;
+}
+.title {
+    width: 876px;
+    height: 188px;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #181818;
+}
+/*format pallete*/
+.format {
+    box-sizing: border-box;
+    width: 812px;
+    height: 76px;
+    margin: 0 0 auto auto;
+    padding-left: 42px;
+    background-color: #fbc02d;;
+}
+.format i {
+    margin: 24px 16px;
+    color: white;
+    font-size: 27px;
+    opacity: 0.6;
+}
+.format i:hover {
+    opacity: 1;
+}
+main {
+    margin: 41px auto auto 195px;
+}
+
+h2 {
+    margin-top: 47px;
+    margin-bottom: 0;
+    font-family: FuturaPT-Bold;
+    text-transform: uppercase;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 4.13px;
+    /* text-align: left; */
+    color: var(--color-first);
+}
+
+h3 {
+    margin-top: 41px;
+    font-family: ProximaNova;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4.38px;
+    text-align: left;
+    color: #b4b4b4;
+}
+
+h4 {
+    margin-top: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.57;
+    text-align: justify;
+    color: #8f8f8f;
+}
+label {
+    margin: 50px auto 0 60px;
+    text-transform: uppercase;
+    font-family: ProximaNova;
+    font-size: 15px;
+    line-height: 7.27;
+    letter-spacing: 4.8px;
+    color: #767676;
+}
+input {
+    display: block;
+    width: 806px;
+    height: 74px;
+    background-color: inherit;
+    margin: -40px auto auto 64px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input[type=text] {
+    font-family: PlayfairDisplay;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.96;
+    text-align: left;
+    color: #fff;
+}
+input::placeholder {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.top {
+    width: 806px;
+    text-align: justify;
+    margin: 55px 200px 39px 0;
+    font-family: Georgia;
+    font-size: 27px;
+    line-height: 1.48;
+    text-align: justify;
+    color: var(--color-first);
+}
+.bottom {
+    margin-top: 39px;
+}
+.document-line {
+    position: absolute;
+    bottom: 0;
+    left: 137px;
+    width: 2px;
+    height: 751px;
+    background-color: rgb(230, 221, 221);
+}
+.input-line {
+    width: 816px;
+}
