@@ -1,0 +1,90 @@
+/*
+font-family: 'Lato', sans-serif;
+*/
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    letter-spacing: 5.44px;
+    font-weight: 700;
+    color: #3c3c3c;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 45px;
+    height: 4px;
+    margin: 20px auto 0 auto;
+    background-color: #dddbdb;
+}
+
+p {
+    width: 561px;
+    margin: 40px auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #3c3c3c;
+}
+p::selection {
+    color: yellow;
+    background-color: #646464;
+}
+.flex-container {
+    display: flex;
+    margin-top: 59px;
+    justify-content: space-between;
+}
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 269px;
+}
+.social-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 269px;
+    height: 268px;
+    background-color: #00aed9;
+    opacity: 0.9;
+}
+.icon {
+    opacity: 0.6;
+}
+.icon:hover {
+    opacity: 1;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.card:hover img,
+.social-card:hover {
+    box-shadow: 0 0 10px black;
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+h5 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.29;
+    color: #282528;
+
+}
+h6 {
+    margin-top: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    color: #646464;
+}
