@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <header class="header">
+            <a class="header__title header__title--sign" href="#">Sign in</a>
+            <a class="header__title header__title--join" href="#">Join us</a>
+        </header>
+        <form action="#" class="form" method="GET">
+            <label class="form__label" for="username">Username</label><br>
+            <input class="form__input" id="username" type="text" required pattern="[A-Za-z]{3-8}" name='login'>
+            <label for="">Username</label>
+            <input type="text" required name='login'>
+            <input type="checkbox" required name="keep" class="form__confirm">
+            <label for="keep"></label>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+    </div>
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.mask.js"></script> -->
+
+</body>
+
+</html>
