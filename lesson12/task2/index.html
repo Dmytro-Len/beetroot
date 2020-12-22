@@ -13,22 +13,31 @@
 <body>
     <div class="wrapper">
         <div class="container">
-        <header class="header">
-            <a class="header__title header__title--sign" href="#">Sign in</a>
-            <a class="header__title header__title--join" href="#">Join us</a>
-        </header>
-        <form action="#" class="form" method="GET">
-            <label class="form__label" for="username">Username</label><br>
-            <input class="form__input" id="username" type="text" required pattern="[A-Za-z]{3-8}" name='login'>
-            <label for="">Username</label>
-            <input type="text" required name='login'>
-            <input type="checkbox" required name="keep" class="form__confirm">
-            <label for="keep"></label>
-            <button type="submit">Sign In</button>
-        </form>
+            <header class="header">
+                <a class="header__title header__title--sign" href="#">Sign in</a>
+                <a class="header__title header__title--join" href="#">Join us</a>
+            </header>
+            <form action="#" class="form" method="GET">
+                <label class="form__label" for="username">Username</label><br>
+                <input class="form__input" id="username" type="text" required pattern="[A-Za-z]{3-8}" minlength="4"
+                    maxlength="12" name='login'>
+                <label class="form__label" for="password">Password</label>
+                <input class="form__input" type="text" required minlength="8" maxlength="16" name='login' id="password">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="keep" required name="keep" class="form__confirm">
+                    <span class="checkmark"></span>
+                    <span class="checkbox-container__label">Keep me signed in</span>
+                </label>
+                <label for="keep"></label>
+                <button class="btn-enter btn-enter--green" type="submit">Sign In</button>
+            </form>
+            <footer class="footer">
+                <a href="#" class="footer__helper footer__helper--left">Forgot password</a>
+                <a href="#" class="footer__helper footer__helper--right">Create an account</a>
+            </footer>
+        </div>
     </div>
-    </div>
-    
+
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.mask.js"></script> -->
 
