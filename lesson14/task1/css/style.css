@@ -1,0 +1,230 @@
+.header {
+  margin-top: 112px;
+}
+.header__pre-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #898f8f;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+.header__title {
+  margin-top: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  line-height: 66px;
+  color: #ffcc00;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+.header__divider {
+  width: 450px;
+  margin: 45px auto 112px;
+  position: relative;
+}
+.header__icon {
+  display: block;
+  width: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__icon::after {
+  content: "";
+  width: 210px;
+  height: 2px;
+  background-color: #ffcc00;
+  color: #ffcc00;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.header__icon::before {
+  content: "";
+  width: 210px;
+  height: 2px;
+  background-color: #ffcc00;
+  color: #ffcc00;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.flex-container {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.angle-icon--left {
+  position: relative;
+  cursor: pointer;
+}
+.angle-icon--left::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #ffcc00;
+  transform: rotateZ(45deg);
+  position: absolute;
+}
+.angle-icon--left::after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #ffcc00;
+  transform: rotateZ(135deg);
+  position: absolute;
+  top: -14px;
+}
+
+.angle-icon--right {
+  position: relative;
+  cursor: pointer;
+}
+.angle-icon--right::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #ffcc00;
+  transform: rotateZ(135deg);
+  position: absolute;
+}
+.angle-icon--right::after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #ffcc00;
+  transform: rotateZ(45deg);
+  position: absolute;
+  top: -14px;
+}
+
+.avatar-box {
+  position: relative;
+}
+
+.avatar-box__userpic img {
+  margin-right: 30px;
+  border: 2px solid #ffcc00;
+}
+
+.flex-container__divider {
+  height: 560px;
+  width: 2px;
+  background-color: #ffcc00;
+}
+
+.description-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description-box__subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  color: #666666;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.description-box__title {
+  font-size: 36px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #666666;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.description-box__divider {
+  width: 200px;
+  height: 2px;
+  background-color: #ffcc00;
+}
+.description-box__icon-box {
+  display: flex;
+  width: 140px;
+  justify-content: space-between;
+}
+.description-box__text {
+  width: 420px;
+  height: 121px;
+  margin-top: 32px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.description-box__interrupted-divider {
+  display: flex;
+  width: 60px;
+  justify-content: space-between;
+}
+.description-box__interrupted-divider--central {
+  width: 21px;
+  height: 5px;
+  background-color: #ffcc00;
+}
+.description-box__interrupted-divider--side {
+  width: 11px;
+  height: 5px;
+  background-color: #ffcc00;
+}
+
+.btn {
+  width: 120px;
+  height: 25px;
+  margin: 25px auto 0;
+  border: 2px solid #ffcc00;
+}
+.btn__text {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #ffcc00;
+}
+
+.point-box {
+  width: 100px;
+  margin: 40px auto 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.point-box__circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 5px;
+  background-color: #ffcc00;
+}
+
+.point-box__circle:hover {
+  width: 11px;
+  height: 11px;
+  background-color: #fff;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+}
+
+.container {
+  width: 1128px;
+  margin: 0 auto;
+}

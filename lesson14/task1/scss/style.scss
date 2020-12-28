@@ -1,0 +1,13 @@
+@import "vars.scss";
+@import "mixins.scss";
+@import "header.scss";
+@import "main.scss";
+
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+.container {
+    width: 1128px;
+    margin: 0 auto;
+}
