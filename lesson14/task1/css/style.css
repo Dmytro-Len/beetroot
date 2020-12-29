@@ -57,7 +57,7 @@
 
 .flex-container {
   display: flex;
-  width: 1000px;
+  width: 1130px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -107,13 +107,61 @@
   top: -14px;
 }
 
-.avatar-box {
+.frame {
   position: relative;
+  padding: 14px;
+}
+
+.frame:before {
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-left: 2px solid #ffcc00;
+  border-right: 2px solid #ffcc00;
+  content: " ";
+}
+
+.frame:after {
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-left: 2px solid #ffcc00;
+  border-right: 2px solid #ffcc00;
+  content: " ";
+}
+
+.frame :first-child:before {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100px;
+  border-top: 2px solid #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  content: " ";
+}
+
+.frame :first-child:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  border-top: 2px solid #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  content: " ";
 }
 
 .avatar-box__userpic img {
-  margin-right: 30px;
   border: 2px solid #ffcc00;
+}
+.avatar-box__userpic img:hover {
+  transform: scale(1.01);
+  transition: 0.8s;
 }
 
 .flex-container__divider {
@@ -154,6 +202,10 @@
   display: flex;
   width: 140px;
   justify-content: space-between;
+}
+.description-box__icon-box img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .description-box__text {
   width: 420px;
