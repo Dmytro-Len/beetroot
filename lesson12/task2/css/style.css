@@ -1,0 +1,171 @@
+/*
+font-family: 'Quicksand', sans-serif;
+*/
+.wrapper {
+    width: 400px;
+    margin: 200px auto;
+    padding: 50px 70px;
+    background: linear-gradient(to top, #3123aec7, #c96dd7c2), url(../img/VectorSmartObject.png) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 260px;
+    margin: 50px auto 50px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+.header {
+    margin-bottom: 50px;
+
+}
+
+.header__title {
+    width: 59px;
+    height: 17px;
+    margin: 0 26px 4px 1px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #fbf6e4;
+    text-decoration: none;
+}
+
+.header__title:focus {
+    padding-bottom: 4px;
+    border-bottom: 4px solid red;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+    margin: 11px 0 18px;
+    border: solid 2px rgba(191, 185, 204, 0.54);
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fbf6e4;
+}
+
+.checkbox-container {
+    position: relative;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #c4c4c43f;
+
+}
+
+/* custom checkbox */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+
+}
+
+.container input:checked~.checkmark {
+    display: block;
+    background-color: #23ae92;
+
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 6px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkbox-container__label {
+    margin-left: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fbf6e4;
+}
+
+.form__label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fbf6e4;
+}
+
+.btn-enter {
+    width: 100%;
+    height: 42px;
+    padding: 13px auto 12px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fbf6e4;
+    border: none;
+}
+
+.btn-enter--green {
+    margin: 40px 0 0;
+    background-color: #23ae92;
+
+}
+
+.btn-enter:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
+
+.btn-enter:active {
+    outline: none;
+}
+
+/* footer */
+.footer {
+    margin-top: 32px;
+}
+
+.footer__helper {
+    padding-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #b9b9cc;
+    border-bottom: 2px solid #b9b9cc;
+    cursor: pointer;
+}
+
+.footer__helper--left {
+    float: left;
+}
+
+.footer__helper--right {
+    float: right;
+}

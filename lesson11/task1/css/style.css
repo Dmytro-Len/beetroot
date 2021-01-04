@@ -3,6 +3,11 @@ body {
   font-weight: 300;
 }
 
+.section--blog {
+  padding: 100px 0 120px;
+  background-color: #b07cf7;
+}
+
 .title {
   font-family: Raleway;
   font-size: 90px;
@@ -21,7 +26,59 @@ body {
   margin: 0 auto 47px;
   text-align: center;
 }
+.link {
+  color: #fff;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
 
+.link img {
+  width: 100%;
+}
+
+.link:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(255, 255, 255, 0.1));
+  opacity: 0;
+}
+
+.link:hover:before {
+  opacity: 1;
+}
+
+.link:hover .date {
+  top: 30px;
+  left: 30px;
+}
+
+.link:hover .content {
+  bottom: 30px;
+  left: 30px;
+}
+
+.date,
+.content {
+  position: absolute;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.date {
+  top: -30px;
+  left: -30px;
+}
+
+.content {
+  bottom: -100px;
+  left: -60px;
+}
 
 /* Section style start */
 .section__title {
