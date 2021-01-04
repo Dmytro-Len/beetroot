@@ -1,0 +1,240 @@
+.flex-container {
+    display: flex;
+    width: 1130px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.angle-icon--left {
+    position: relative;
+    cursor: pointer;
+
+    &::before {
+        content: '';
+        width: 20px;
+        height: 2px;
+        background-color: $yellow;
+        transform: rotateZ(45deg);
+        position: absolute;
+    }
+
+    &::after {
+        content: '';
+        width: 20px;
+        height: 2px;
+        background-color: $yellow;
+        transform: rotateZ(135deg);
+        position: absolute;
+        top: -14px;
+    }
+}
+
+.angle-icon--right {
+    position: relative;
+    cursor: pointer;
+
+    &::before {
+        content: '';
+        width: 20px;
+        height: 2px;
+        background-color: $yellow;
+        transform: rotateZ(135deg);
+        position: absolute;
+    }
+
+    &::after {
+        content: '';
+        width: 20px;
+        height: 2px;
+        background-color: $yellow;
+        transform: rotateZ(45deg);
+        position: absolute;
+        top: -14px;
+    }
+}
+
+.frame {
+    position: relative;
+    padding: 14px;
+}
+
+.frame:before {
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-left: 2px solid $yellow;
+    border-right: 2px solid $yellow;
+    content: " ";
+}
+
+.frame:after {
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-left: 2px solid $yellow;
+    border-right: 2px solid $yellow;
+    content: " ";
+}
+
+.frame :first-child:before {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    border-top: 2px solid $yellow;
+    border-bottom: 2px solid $yellow;
+    content: " ";
+}
+
+.frame :first-child:after {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    border-top: 2px solid $yellow;
+    border-bottom: 2px solid $yellow;
+    content: " ";
+}
+
+.avatar-box__userpic img {
+    border: 2px solid $yellow;
+
+    &:hover {
+        transform: scale(1.01);
+        transition: 0.8s;
+    }
+}
+
+
+.flex-container__divider {
+    height: 560px;
+    width: 2px;
+    background-color: $yellow;
+
+}
+
+.description-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__subtitle {
+        font-size: 24px;
+        line-height: 36px;
+        color: $grey-title;
+        font-weight: 400;
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 36px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: $grey-title;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+    }
+
+    &__divider {
+        width: 200px;
+        height: 2px;
+        background-color: $yellow;
+    }
+
+    &__icon-box {
+        display: flex;
+        width: 140px;
+        justify-content: space-between;
+
+        & img:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+
+    &__text {
+        width: 420px;
+        height: 121px;
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 24px;
+        color: $grey-p;
+        font-weight: 500;
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+    }
+
+    &__interrupted-divider {
+        display: flex;
+        width: 60px;
+        justify-content: space-between;
+    }
+
+    &__interrupted-divider--central {
+        width: 21px;
+        height: 5px;
+        background-color: $yellow;
+    }
+
+    &__interrupted-divider--side {
+        width: 11px;
+        height: 5px;
+        background-color: $yellow;
+    }
+}
+
+
+.btn {
+    width: 120px;
+    height: 25px;
+    margin: 25px auto 0;
+    border: 2px solid $yellow;
+
+    &__text {
+        display: block;
+        font-size: 14px;
+        line-height: 24px;
+        color: $grey-title;
+        font-weight: 700;
+        font-family: "Open Sans", sans-serif;
+        @include title;
+        text-decoration: none;
+    }
+
+    &:hover {
+        background-color: $yellow;
+    }
+}
+
+.point-box {
+    width: 100px;
+    margin: 40px auto 96px;
+    display: flex;
+    justify-content: space-between;
+
+    &__circle {
+        width: 11px;
+        height: 11px;
+        border-radius: 5px;
+        background-color: $yellow;
+    }
+
+}
+
+.point-box__circle:hover {
+    width: 11px;
+    height: 11px;
+    background-color: $white;
+    border: 2px solid $yellow;
+    border-radius: 10px;
+}
