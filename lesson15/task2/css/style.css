@@ -1,0 +1,480 @@
+.header,
+.about,
+.services,
+.whatWeDo,
+.cardholder,
+.contact,
+.copyright {
+  width: 100vw;
+}
+
+.header {
+  /*background important parameters*/
+  background-image: url(../img/hero-bg.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1px;
+  padding-bottom: 115px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 8.64px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.title--main {
+  margin: 94px 0;
+}
+
+.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic--main {
+  margin-top: 285px;
+}
+
+.pic-scroll {
+  margin-top: 245px;
+}
+
+.lead {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.93;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.lead--head {
+  margin: 53px 0 245px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.tophead-box {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.about--gap {
+  margin-top: 160px;
+}
+
+.tophead-box__title {
+  font-family: "Lato", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 5.44px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  position: absolute;
+  top: -15px;
+  margin: 0 auto;
+}
+
+.tophead-box__title--align {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tophead-box__title--light {
+  color: #ffffff;
+}
+
+.tophead-box__line {
+  width: 250px;
+  height: 1px;
+  background-color: #3c3c3c;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tophead-box__line--light {
+  background-color: #ffffff;
+}
+
+.tophead-box__line--secondary {
+  width: 250px;
+  height: 1px;
+  background-color: #3c3c3c;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.tophead-box__line--secondary--light {
+  background-color: #ffffff;
+}
+
+.box {
+  box-sizing: border-box;
+  margin-top: 0;
+  padding-top: 78px;
+  border-bottom: 1px solid #3c3c3c;
+  border-left: 1px solid #3c3c3c;
+  border-right: 1px solid #3c3c3c;
+}
+
+.box--light {
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+.box--aboutUs {
+  height: 312px;
+  margin-bottom: 160px;
+}
+
+.box--services {
+  height: 252px;
+}
+
+.box--whatWeDo {
+  height: 1182px;
+}
+
+.box--contactUs {
+  height: 294px;
+}
+
+.box__sublead {
+  margin-top: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.box__sublead--light {
+  color: #ffffff;
+}
+
+.services {
+  background-image: url(../img/services.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 110px;
+}
+
+.whatWeDo {
+  padding-top: 120px;
+  padding-bottom: 114px;
+}
+
+.icon-title {
+  margin: 38px auto;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.icon {
+  display: block;
+  font-size: 84px;
+  text-align: center;
+  margin: 90px auto 30px auto;
+}
+
+.card-container {
+  width: 100%;
+  height: 444px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.card-list__item {
+  height: 217px;
+  position: relative;
+}
+.card-list__item:hover {
+  box-shadow: 0 0 5px 5px #4fd8dd;
+  transition: 0.5s;
+}
+
+.card-list__item--small {
+  flex-basis: 25%;
+}
+
+.card-list__item--large {
+  flex-basis: 48%;
+}
+
+.card-list__item:nth-child(1) {
+  background-image: url(../img/topworkz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-list__item:nth-child(2) {
+  background-image: url(../img/joint.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-list__item:nth-child(3) {
+  background-image: url(../img/market.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-list__item:nth-child(4) {
+  background-image: url(../img/worktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-list__item:nth-child(5) {
+  background-image: url(../img/lable.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-list__item:nth-child(6) {
+  background-image: url(../img/kyiv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-list__subtitle {
+  position: absolute;
+  bottom: -10px;
+  left: 44px;
+  font-family: "Lato", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 5.44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.contact {
+  padding-top: 138px;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 395px;
+  height: 58px;
+  margin: 42px auto;
+  padding-top: 21px;
+  background-color: #3c3c3c;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #4fd8dd;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.btn__title {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.56px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copyright {
+  margin: 63px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .card-container {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+  }
+
+  .card-list__item {
+    height: 218px;
+  }
+
+  .card-list__item--small {
+    flex-basis: 33.33%;
+  }
+
+  .card-list__item--large {
+    flex-basis: 33.33%;
+  }
+
+  .card-list__subtitle {
+    position: absolute;
+    bottom: -10px;
+    left: 24px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5.44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tophead-box__title {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .tophead-box__line {
+    display: none;
+  }
+
+  .tophead-box__line--secondary {
+    display: none;
+  }
+
+  .box {
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-top: 78px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .card-container {
+    width: 100%;
+    height: 1350px;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .card-list__item {
+    width: 100%;
+  }
+
+  .card-list__item--small {
+    flex-basis: auto;
+  }
+
+  .card-list__item--large {
+    flex-basis: auto;
+  }
+
+  .card-list__subtitle {
+    position: absolute;
+    bottom: -10px;
+    left: 24px;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5.44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .card-container .container:nth-child(1) {
+    background-image: url(../img/topworkz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card-container .container:nth-child(2) {
+    background-image: url(../img/joint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card-container .container:nth-child(3) {
+    background-image: url(../img/market.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card-container .container:nth-child(4) {
+    background-image: url(../img/worktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card-container .container:nth-child(5) {
+    background-image: url(../img/lable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card-container .container:nth-child(6) {
+    background-image: url(../img/kyiv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .tophead-box__title {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  .tophead-box__line {
+    display: none;
+  }
+
+  .tophead-box__line--secondary {
+    display: none;
+  }
+
+  .box {
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-top: 78px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+}

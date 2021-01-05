@@ -1,0 +1,78 @@
+.card-container {
+    width: 100%;
+    height: 444px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.card-list__item {
+    height: 217px;
+    position: relative;
+    &:hover {
+        box-shadow: 0 0 5px 5px $hover-color;
+        transition: 0.5s;
+    }
+}
+
+.card-list__item--small {
+    flex-basis: 25%;
+}
+
+.card-list__item--large {
+    flex-basis: 48%;
+}
+
+.card-list__item:nth-child(1) {
+    background-image: url(../img/topworkz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list__item:nth-child(2) {
+    background-image: url(../img/joint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list__item:nth-child(3) {
+    background-image: url(../img/market.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list__item:nth-child(4) {
+    background-image: url(../img/worktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list__item:nth-child(5) {
+    background-image: url(../img/lable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list__item:nth-child(6) {
+    background-image: url(../img/kyiv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list__subtitle {
+    position: absolute;
+    bottom: -10px;
+    left: 44px;
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 5.44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white-color;
+}
