@@ -1,0 +1,97 @@
+.section--contact {
+    background-image: url(../images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
+  }
+  .section__title--black {
+    margin-top: 100px;
+    color: #000;
+  }
+  .section__center-description {
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.47;
+    text-align: center;
+    color: #262626;
+  }
+  .contact {
+    margin-left: 72px;
+    &__title {
+        margin-bottom: 0;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.25;
+        color: #262626;
+        text-transform: uppercase;
+    }
+    &__description {
+        margin: 0 auto 10px auto;
+        font-family: Raleway;
+        font-size: 20px;
+        color: #262626;
+    }
+  }
+  .section__info {
+    margin-top: 46px;
+  }
+  .form {
+    margin: 0 auto 170px 60px;
+    &__area {
+      width: 500px;
+      margin-bottom: 15px;
+      padding: 20px auto auto 20px;
+      opacity: 0.5;
+      background-color: #00c4c4;
+      font-family: Raleway;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.67;
+      color: #ffffff;
+      border: none;
+      &--small {
+        height: 50px;
+      }
+      &--large {
+        height: 250px;
+      }
+    }
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    content: "";
+    padding-left: 20px;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #fff;
+  }
+  textarea::placeholder {
+    padding-top: 20px;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea {
+    padding-left: 20px;
+    outline: none;
+  }
+  input:focus,
+  textarea:focus {
+    // padding-top: 20px;
+    font-weight: 700;
+    opacity: 1;
+    border-left: 5px solid #355b82;
+  }
+
+  /* Focus state */
+  input:focus::placeholder{
+    color: transparent;
+  }
+  textarea:focus::placeholder{
+    color: transparent;
+  }
+ 

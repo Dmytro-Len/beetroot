@@ -1,0 +1,60 @@
+.section-services {
+    // position: relative;
+    height: auto;
+    background-color: #70bfff;
+    // padding: 100px auto 163px;
+    padding-top: 130px;
+  }
+  .service-btn {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+    &:hover {
+        cursor: pointer;
+    }
+    &__text {
+        flex-basis: 300px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__icon {
+        flex-basis: 100px;
+      text-align: center;
+    }
+    &__title {
+        margin-bottom: 0;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.35;
+        color: #262626;
+    }
+  }
+  .divider {
+    height: 100%;
+    width: 1px;
+    background-color:  #9d9d9d;
+  }
+ 
+  .icon-lg {
+    font-size: 30px;
+  }
+  .service-pic {
+    margin-top: 100px;
+  }
+  .title-service {
+    margin-top: -100px;
+    position: relative;
+  }
+  .title-position {
+    position:absolute;
+    top: 305px;
+    left: -64px;
+  }

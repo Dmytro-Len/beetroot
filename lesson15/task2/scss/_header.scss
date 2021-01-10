@@ -9,7 +9,6 @@
 
 .container {
     width: 100%; //width for secondary container
-    // margin: 0;
     margin: 0 auto;
 }
 
@@ -51,7 +50,7 @@
 }
 
 .lead--head {
-    margin: 53px 0 245px 0;
+    margin: 53px auto 245px;
     color: $white-color;
     text-transform: uppercase;
 }

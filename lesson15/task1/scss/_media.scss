@@ -1,0 +1,114 @@
+@media screen and (min-width: 1400px) {
+    .dropdown {
+        display: none;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .dropdown {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .dropdown {
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .dropdown {
+        display: none;
+    }
+    .section__title--secondary {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .service-btn {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service-pic {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-service {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-position {
+        top: 40%;
+        left: 8%;
+    }
+    .btn-subscribe {
+        margin-top: 20px;
+    }
+    .form {
+        margin-bottom: 10px;
+        &__area {
+            width: 90%;
+        }
+    }
+    .contact {
+        &__title, &__description {
+            color: white;
+        }
+    }
+    img:nth-child(2) {
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .dropdown {
+        display: block;
+    }
+    .title-position {
+        font-size: 5em;
+    }
+    .form {
+        &__area {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+.nav {
+    display: none;
+}
+.fruit {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.section__title--secondary {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3em;
+}
+.title-position {
+    font-size: 3em;
+}
+
+}
+@media screen and (max-width: 375px) {
+.nav {
+    display: none;
+}
+
+}
+// @media screen and (min-width: 769px) and (max-width: 993px) {
+//  .burger__menu {
+//         display: none;
+//     }
+// }
