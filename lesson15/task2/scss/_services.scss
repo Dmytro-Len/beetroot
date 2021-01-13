@@ -1,0 +1,52 @@
+.box {
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-top: 78px;
+    border-bottom: 1px solid $black-color;
+    border-left: 1px solid $black-color;
+    border-right: 1px solid $black-color;
+}
+
+.box--light {
+    border-bottom: 1px solid $white-color;
+    border-left: 1px solid $white-color;
+    border-right: 1px solid $white-color;
+}
+
+.box--aboutUs {
+    height: 312px;
+    margin-bottom: 160px;
+}
+
+.box--services {
+    height: 252px;
+}
+
+.box--whatWeDo {
+    height: 1182px;
+}
+
+.box--contactUs {
+    height: 294px;
+}
+
+.box__sublead {
+    margin-top: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.box__sublead--light {
+    color: $white-color;
+}
+
+.services {
+    background-image: url(../img/services.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 110px;
+}
