@@ -163,6 +163,13 @@ body {
   background-color: #ff6033;
 }
 
+.logo {
+  height: 100%;
+}
+.logo img {
+  max-width: inherit;
+}
+
 .section--about {
   padding: 70px 0;
   background-color: #00c4c4;
@@ -617,6 +624,10 @@ textarea:focus::placeholder {
 
   img:nth-child(2) {
     margin-top: 20px;
+  }
+
+  .subscribe {
+    width: 90%;
   }
 }
 @media screen and (max-width: 768px) {

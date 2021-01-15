@@ -102,7 +102,6 @@ body {
     &:hover::before {
         content: "";
         width: 100%;
-
     }
   }
   
@@ -116,4 +115,10 @@ body {
     &--primary {
         background-color: #ff6033;
     }
+  }
+  .logo {
+      height: 100%;
+      & img {
+        max-width: inherit;
+      }
   }
