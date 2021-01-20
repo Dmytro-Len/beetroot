@@ -1,0 +1,12 @@
+// @media screen and (min-width: 768px) and (max-width: 1440px) {
+
+// }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .search-area {
+        width: 80%;
+    }
+    .fas, .fa-search {
+        display: none;
+    }
+}

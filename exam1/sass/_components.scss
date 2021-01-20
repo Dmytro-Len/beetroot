@@ -1,0 +1,44 @@
+//buttons block
+.btn {
+    width: 25%;
+    font-family: "Josefin Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: $white-color;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: $blue-color;
+        border: none;
+       cursor: pointer;
+        &:hover {
+            background-color: $hover-color;
+        }
+        &--primary {
+            width: 200px;
+        }
+}
+//scroll bird
+.scroll {
+    margin-top: 120px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: $white-color;
+    text-align: center;
+
+    &__pointer {
+        display: inline-block;
+        width: 2px;
+        height: 14px;
+        background-color: $white-color;
+        transform: rotate(135deg);
+        &--second {
+            display: inline-block;
+            margin-left: 2px;
+            width: 2px;
+            height: 14px;
+            background-color: $white-color;
+            transform: rotate(45deg);
+        }
+    }
+}

@@ -1,0 +1,10 @@
+
+//mixins
+@mixin hover { //изменить!!!!
+    &:hover {
+        outline: 1px $hoverColor ;
+    }
+    &:visited {
+        text-decoration: none;
+    }
+}
