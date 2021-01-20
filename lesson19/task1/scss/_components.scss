@@ -1,0 +1,112 @@
+.card__btn {
+    &--blue {
+        @include btn;
+        background-color: $blue-color;
+    }
+
+    &--red {
+        @include btn;
+        margin-top: -28px;
+        background-color: $red-color;
+    }
+}
+
+.btn-text {
+    margin: 0 auto;
+
+    font: {
+        family: 'BebasNeue_Bold', sans-serif;
+        size: 13px;
+        font-weight: 700;
+    }
+
+    color: $btn-color;
+    text-transform: uppercase;
+}
+
+.label-wrapper {
+    position: absolute;
+    top: 20px;
+    right: -84px;
+    width: 100px;
+    height: 30px;
+    background-color: $label-color;
+    border-radius: 15px;
+
+    // padding: 10px auto;
+    &__text {
+        font: {
+            family: 'Bebas Neue Thin', sans-serif;
+            weight: 400;
+            size: 16px;
+        }
+
+        color: $btn-color;
+        text-transform: uppercase;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin: 7px 12px;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: -6px;
+        width: 0;
+        height: 0;
+        border-right: 10px solid $label-color;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+}
+
+.bubble-wrapper {
+    position: relative;
+    top: -160px;
+    right: -296px;
+    background-color: $red-color;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: auto;
+
+    &__text {
+        font: {
+            family: 'Bebas Neue Thin', sans-serif;
+            weight: 400;
+            size: 24px;
+        }
+        vertical-align: middle;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        color: $btn-color;
+
+    }
+
+    &__item--md {
+        position: absolute;
+        top: -8px;
+        left: 42px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: $red-color;
+
+    }
+
+    &__item--sm {
+        position: absolute;
+        top: -16px;
+        left: 60px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: $red-color;
+
+    }
+
+}

@@ -1,0 +1,13 @@
+.footer {
+    position: relative;
+    height: auto;
+    padding: 32px;
+    background-color: #262626;
+    &__text {
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.56;
+        color: #b9b9b9;
+    }
+  }
