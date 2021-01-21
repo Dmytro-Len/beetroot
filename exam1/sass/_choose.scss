@@ -1,0 +1,62 @@
+.choose {
+    max-width: 100vw; //major
+    padding: 120px 0;
+    background-image: url(../img/choose.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__inner {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        // flex-wrap: nowrap;
+    }
+
+    &__text-block {
+        width: 50%;
+    }
+
+    &__title {
+        margin-top: 84px;
+        text-transform: capitalize;
+
+        font: {
+            family: 'Aleo', serif;
+            size: 36px;
+            weight: 400;
+        }
+
+        color: $white-color;
+    }
+
+    &__subtitle {
+        line-height: 1.63;
+        letter-spacing: 1.1px;
+
+        font: {
+            family: 'Aleo', serif;
+            size: 16px;
+            weight: 400;
+        }
+
+        color: $white-text-color;
+
+    }
+
+    &__img-block {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        & img {
+            width: 350px;
+            margin-left: 105px;
+        }
+
+        & img:nth-child(2) {
+            width: 350px;
+            margin: 5px 0 0 230px;
+        }
+
+    }
+}
