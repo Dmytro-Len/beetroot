@@ -1,0 +1,17 @@
+
+//mixins
+@mixin hover { //изменить!!!!
+    &:hover {
+        outline: 1px $hoverColor ;
+    }
+    &:visited {
+        text-decoration: none;
+    }
+}
+@mixin title-primary {
+    font: {
+        family: 'Josefin Sans', sans-serif;
+        size: 24px;
+        weight: 700;
+    }
+}

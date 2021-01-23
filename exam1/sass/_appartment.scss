@@ -1,0 +1,51 @@
+.appartment {
+    max-width: 100vw;
+    background-image: url(../img/madrid.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 229px 0 100px;
+    &__card {
+        width: 540px;
+        height: 372px;
+        padding: 50px 30px 0 30px;
+        background-color: $card-color;
+        font: {
+            family: 'Josefin Sans', sans-serif;
+        }
+        &--disp {
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+    &__title {
+        margin: 30px 0;
+
+        font: {
+            size: 20px;
+        }
+        // line-height: 1.3;
+        text-transform: uppercase;
+        color: $white-color;
+    }
+    &__pretitle {
+        font: {
+            size: 20px;
+        }
+        color: $white-text-color;
+        // line-height: 1.3;
+        // letter-spacing: 1.5px;
+
+    }
+    &__text {
+        font: {
+            size: 13px;
+        }
+        color: $white-text-color;
+        line-height: 1.63;
+        // letter-spacing: normal;
+    }
+    &--disp {
+        background-image: url(../img/spain.webp);
+    }
+
+}

@@ -1,0 +1,108 @@
+body {
+    background-color: $bg-color;
+}
+
+.container {
+    width: 75vw;
+    margin: 160px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    height: 612px;
+    // flex-basis: 328px;
+    width: 328px;
+    flex-wrap: wrap;
+    background-color: $bg-card;
+
+    &-lg {
+        position: relative;
+        height: 692px;
+        // flex-basis: 371px;
+        width: 370px;
+    }
+
+    &__notice {
+        width: 130px;
+        margin: 20px auto 0;
+
+        font: {
+            family: 'Roboto', sans-serif;
+            weight: 300;
+            size: 12px;
+        }
+
+        color: #a9a9a9;
+    }
+
+    &__title {
+        margin: 50px 0 24px;
+        text-align: center;
+        letter-spacing: 5px;
+
+        font: {
+            family: 'Bebas Neue Thin', sans-serif;
+            weight: 200;
+            size: 44px;
+            stretch: condensed;
+        }
+
+        &:before {
+            position: relative;
+            top: -20px;
+            content: '$';
+            font-size: 16px;
+        }
+
+        &:after {
+            vertical-align: baseline;
+            content: '/HR';
+            font-size: 16px;
+        }
+    }
+
+    &__subtitle {
+        margin: 0 auto 30px;
+        text-align: center;
+
+        font: {
+            family: 'BebasNeue_Light', sans-serif;
+            size: 24px;
+        }
+
+        color: $font-color;
+        text-transform: uppercase;
+    }
+
+    &__icon {
+        width: 30px;
+        margin: 0 auto 40px;
+        font-size: 30px;
+    }
+    &__descr {
+        width: 100%;
+        height: auto;
+        padding-top: 35px;
+        padding-bottom: 32px;
+        background-color: #fff;
+        border-top-left-radius: 50% 20%;
+        border-top-right-radius: 50% 20%;
+    }
+    &__text {
+        width: 44%;
+        margin: 0 auto 30px;
+        text-align: left;
+    
+        font: {
+            family: 'Roboto', sans-serif;
+            size: 16px;
+            weight: 300;
+        }
+    
+        &--lg {
+            width: 180px;
+        }
+    }
+}
