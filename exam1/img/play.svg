@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471.33 471.33">
+  <defs>
+    <style>
+      .bcd5705f-4907-4267-b41a-7d8202367100 {
+        fill: #fff;
+      }
+
+      .bcd5705f-4907-4267-b41a-7d8202367100, .ea333e34-1d71-443e-a7c4-62d7de617864 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .ea333e34-1d71-443e-a7c4-62d7de617864 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="a778e3bb-79ed-40ab-b7f1-01644386a48a" data-name="Слой 2">
+    <g id="b98ceb59-be52-4631-b000-7acf41ecb2cb" data-name="Layer 1">
+      <g>
+        <circle class="bcd5705f-4907-4267-b41a-7d8202367100" cx="235.67" cy="235.67" r="234.67"/>
+        <path class="ea333e34-1d71-443e-a7c4-62d7de617864" d="M337.44,226.7l-149.33-96a10.66,10.66,0,0,0-16.44,9v192a10.68,10.68,0,0,0,16.44,9l149.33-96a10.67,10.67,0,0,0,0-17.94Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

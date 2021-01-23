@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .container {
-    width: 1120px; //major
+    width: 1110px; //major
     margin: 0 auto;
 }
 
@@ -15,6 +15,7 @@
     padding: 265px 0 134px;
 
     &__title {
+        margin-bottom: 15px;
         color: $white-color;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 48px;
@@ -23,6 +24,7 @@
         letter-spacing: 6.8px;
     }
     &__subtitle {
+        margin-bottom: 49px;
         color: $white-color;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -52,7 +54,6 @@
 .search-area input[type=search] {
     width: auto;
     flex-grow: 1;
-    height: inherit;
     border: none;
 
     &::placeholder {

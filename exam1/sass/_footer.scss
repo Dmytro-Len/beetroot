@@ -1,0 +1,85 @@
+.footer {
+    max-width: 100vw;
+    height: 270px;
+    padding-top: 120px;
+    background-color: $grey-footer-color;
+    &__title {
+        @include title-primary;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-bottom: 30px;
+        font: {
+            family: 'Josefin Sans', sans-serif;
+            size: 16px;
+            weight: 400;
+        }
+        color: white;
+        text-align: center;
+    }
+    &__icon-box {
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.icon {
+    &-facebook {
+        width: 9px;
+        &:hover {
+            fill: $hover-color;
+        }
+    }
+    &-twitter {
+        width: 15px;
+        &:hover {
+            fill: $hover-color;
+        }
+    }
+    &-linkedin {
+        width: 15px;
+        &:hover {
+            fill: $hover-color;
+        }
+    }
+    &-youtube {
+        width: 17px;
+        &:hover {
+            fill: $hover-color;
+        }
+    }
+    &-pinterest {
+        width: 14px;
+        &:hover {
+            fill: $hover-color;
+        }
+    }
+    
+    }
+    a:hover {
+        & .b34beb7f-ff0b-4add-83b2-55f3a3013beb {
+            fill: $hover-color;
+        }
+        & .b1214300-63ab-4fd7-9cf5-6228bd114c61 {
+            fill: $hover-color;
+        }
+        & .a21284f4-ac13-4a6f-a2d2-c105df38edbc {
+            fill: $hover-color;
+        }
+        & .a57ba386-4338-4520-a7ff-2ff78698bdde {
+            fill: $hover-color;
+        }
+        & .a4776210-58fc-424e-a58b-4371ff84c159 {
+            fill: #fff;
+        }
+        & .e4400e24-ee7e-4172-822b-d44055eb99ea {
+            fill: $hover-color;
+        }
+
+    }

@@ -2,42 +2,65 @@
 .btn {
     width: 25%;
     font-family: "Josefin Sans", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        color: $white-color;
-        text-align: center;
-        text-transform: uppercase;
-        background-color: $blue-color;
-        border: none;
-       cursor: pointer;
-        &:hover {
-            background-color: $hover-color;
-        }
-        &--primary {
-            width: 200px;
-        }
+    font-size: 14px;
+    font-weight: 400;
+    color: $white-color;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $blue-color;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+
+    &--primary {
+        width: 200px;
+    }
 }
+
 .btn--primary {
     width: 226px;
     height: 60px;
     margin-top: 48px;
     outline: none;
     cursor: pointer;
+
     font: {
         family: 'Aleo', serif;
         size: 16px;
         weight: 400;
     }
+
     text-transform: uppercase;
     color: $white-color;
-    background: linear-gradient(45deg, rgba(84,116,253,1) 36%, rgba(84,125,253,1) 37%);
+    background: linear-gradient(45deg, rgba(84, 116, 253, 1) 36%, rgba(84, 125, 253, 1) 37%);
     // &:active {
     // outline: none;
     // }
-    & span {
-        
+
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  
+}
+.btn-slide {
+    display: inline;
+    margin-top: 30px;
+    margin-left: 14px;
+    // margin: ;
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid $white-color;
+    &:hover {
+        background-color: $blue-color;
+        cursor: pointer;
     }
 }
+
 //scroll bird
 .scroll {
     margin-top: 120px;
@@ -46,6 +69,9 @@
     font-weight: 400;
     color: $white-color;
     text-align: center;
+    & p {
+        margin-bottom: 15px;
+    }
 
     &__pointer {
         display: inline-block;
@@ -53,6 +79,7 @@
         height: 14px;
         background-color: $white-color;
         transform: rotate(135deg);
+
         &--second {
             display: inline-block;
             margin-left: 2px;
@@ -60,6 +87,44 @@
             height: 14px;
             background-color: $white-color;
             transform: rotate(45deg);
+        }
+
+        &--bottom {
+            display: block;
+            margin: -23px auto 0;
+            width: 2px;
+            height: 14px;
+            background-color: $white-color;
+            transform: rotate(135deg);
+
+            &-right {
+                display: block;
+                margin: -23px auto 0;
+                width: 2px;
+                height: 14px;
+                background-color: $white-color;
+                transform: rotate(45deg);
+
+            }
+        }
+
+        &--top {
+            display: block;
+            margin: 2.5px auto;
+            width: 2px;
+            height: 14px;
+            background-color: $white-color;
+            transform: rotate(45deg);
+
+            &-right {
+                display: block;
+                margin: 2.5px auto;
+                width: 2px;
+                height: 14px;
+                background-color: $white-color;
+                transform: rotate(135deg);
+
+            }
         }
     }
 }

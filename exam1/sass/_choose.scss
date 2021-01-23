@@ -17,7 +17,7 @@
     }
 
     &__title {
-        margin-top: 84px;
+        margin: 84px 0 59px;
         text-transform: capitalize;
 
         font: {
@@ -30,12 +30,15 @@
     }
 
     &__subtitle {
+        // width: 530px;
+        text-align: justify;
         line-height: 1.63;
         letter-spacing: 1.1px;
 
         font: {
-            family: 'Aleo', serif;
-            size: 16px;
+        family: 'Josefin Sans', sans-serif;
+
+            size: 14.5px; //it didn't edit in other case
             weight: 400;
         }
 

@@ -6,8 +6,8 @@
     padding: 229px 0 100px;
     &__card {
         width: 540px;
-        height: 370px;
-        padding: 50px 0 0 30px;
+        height: 372px;
+        padding: 50px 30px 0 30px;
         background-color: $card-color;
         font: {
             family: 'Josefin Sans', sans-serif;
@@ -18,7 +18,8 @@
         }
     }
     &__title {
-        margin: 30px 0 0;
+        margin: 30px 0;
+
         font: {
             size: 20px;
         }
@@ -32,12 +33,12 @@
         }
         color: $white-text-color;
         // line-height: 1.3;
-        letter-spacing: 1.5px;
+        // letter-spacing: 1.5px;
 
     }
     &__text {
         font: {
-            size: 15px;
+            size: 13px;
         }
         color: $white-text-color;
         line-height: 1.63;
