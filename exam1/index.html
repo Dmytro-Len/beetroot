@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Travel with fun">
+  <meta name="keywords" content="travel, enjoy, bhromaon, spain, travel to spain">
+  <meta property='og:locale' content="en_EN">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bhromaon - Travel Agency #1">
+  <meta property="og:description" content="Cheapest trips around the world!">
+  <meta property="og:image" content="https://images.yourstory.com/cs/wordpress/2016/11/leadership-lessons-from-travelling.jpg">
+  <meta property="og:url" content="http://2408.fun/">
+  <meta property="og:site_name" content="Bhromaon">
   <title>BHROMAON - Travel Agency #1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link href="css/normalize.css" rel="stylesheet"> -->
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/all.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="short icon" href="img/favicon.ico">
 
@@ -20,12 +24,12 @@
     <div class="container">
       <h1 class="header__title">BHROMAON</h1>
       <h4 class="header__subtitle">safe travel anywhere</h4>
-      <div class="search-area">
-        <input type="search" placeholder="Search Your Travel Destination" required>
-        <button type="submit" class="btn">
-          <span>search</span> <i class="fas fa-search"></i>
-        </button>
-      </div>
+        <form class="search-area" action="#" method="POST">
+          <input id="search" type="search" placeholder="Search Your Travel Destination" required>
+          <button type="submit" class="btn">
+            <span>search</span> <i class="fas fa-search"></i>
+          </button>
+        </form>
       <div class="scroll">
         <p>Scroll Down</p>
         <div class="scroll__pointer"></div>
@@ -33,7 +37,7 @@
       </div>
     </div>
   </header>
-  <nav class="nav">
+  <nav id="nav" class="nav">
     <div class="container">
       <div class="nav__wrapper">
         <h2 class="nav__title">bhromaon</h2>
@@ -152,7 +156,7 @@
       <h3 class="review__title">what our tourist say</h3>
       <div class="review__card">
         <div class="img-wrapper">
-          <img src="img/man.jpg" alt="man">
+          <img src="img/man.webp" alt="man">
           <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471.33 471.33">
             <defs>
               <style>
@@ -201,8 +205,8 @@
           <div class="scroll__pointer--bottom"></div>
         </button>
         <button class="btn-slide">
-          <div class="scroll__pointer--top-right"></div><br>
-          <div class="scroll__pointer--bottom-right"></div>
+          <span class="scroll__pointer--top-right"></span><br>
+          <span class="scroll__pointer--bottom-right"></span>
         </button>
       </div>
     </div>

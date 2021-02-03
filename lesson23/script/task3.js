@@ -1,16 +1,16 @@
-let num = prompt('Введите трехзначное число');
-
-if (num.length == 3) {  
-    let a = num.slice(0, 1);
-    let b = num.slice(1, 2);
-    let c = num.slice(2, 2);
-    if (a === b || b === c || a === c) {
-        alert('Найдены совпадающие цифры')
-    } else {
-        alert('Совпадающие цифры не найдены')
-
-    }
-
+let num = prompt('Enter number with three numbers');
+if (num.length === 3) {
+   let a = num.slice(0, 1)
+   let b = num.slice(1, 2)
+   let c = num.slice(-1)
+//    alert(a)
+//    alert(b)
+//    alert(c)
+if (a == b || b == c || a == c) {
+    alert('We find correct numbers')
 } else {
-    alert('Неверный ввод')
+    alert('We didnt find correct numbers')
+}
+} else {
+    alert('Wrong enter')
 }
