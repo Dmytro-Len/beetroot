@@ -1,7 +1,10 @@
-let enter = +prompt('Enter your number')
+// let enter = +prompt('Enter your number')
 
-function perfect(){
-    
-}
+// function perfect(){
+//     while (enter % )
 
-perfect(enter)
+// }
+
+// perfect(enter)
+
+
