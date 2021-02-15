@@ -1,0 +1,51 @@
+#modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(115, 115, 201, 0.685);
+    display: none;
+}
+#open-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #39f015;
+}
+#close-btn {
+    width: 80%;
+    height: 30%;
+    margin: 20px auto 0;
+    background-color: burlywood;
+}
+
+/*traffic light*/
+
+.t-light {
+    margin-top: 50px;
+    height: 300px;
+    width: 100px;
+    border: 2px black solid;
+}
+.top {
+    height: 33.33%;
+    width: 100%;
+    background-color: white;
+}
+.middle {
+    height: 33.33%;
+    width: 100%;
+    background-color: white;
+}
+.bottom {
+    height: 33.33%;
+    width: 100%;
+    background-color: white;
+}
+
+.check {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(100, 110, 90);
+}
