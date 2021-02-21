@@ -1,0 +1,19 @@
+//colors
+$text-color: #ffffff;
+$bg-color: #ffffff;
+$hover-color: #4da2f1;
+$button-color: #f1c26a;
+$button-text-color: #0f0f0fd7;
+
+//dimensions
+$pageWidth: 1280px;
+
+//mixins
+@mixin hover {
+    &:hover {
+        outline: 1px $hoverColor ;
+    }
+    &:visited {
+        text-decoration: none;
+    }
+}
