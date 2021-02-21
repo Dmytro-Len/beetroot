@@ -14,11 +14,15 @@
     // &__description {
     //     // width: 400px;
     // }
+   
     &__header {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        &__item:hover {
+            cursor: pointer;
+        }
     }
     &__title {
         font-family: 'Lato', sans-serif;

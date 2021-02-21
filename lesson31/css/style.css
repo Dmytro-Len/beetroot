@@ -56,20 +56,6 @@ body {
   text-transform: uppercase;
 }
 
-.header__item:hover .shp0 {
-  opacity: 1;
-  fill: #ffffff;
-}
-
-.header__item:hover {
-  cursor: pointer;
-  border-bottom: 2px solid white;
-}
-
-.header__item:hover .header__pretitle {
-  color: #fbfbfb;
-}
-
 .main {
   width: 600px;
   height: 425px;
@@ -178,4 +164,76 @@ body {
 .btn:hover {
   background-color: #fedc3f;
   cursor: pointer;
+}
+
+.rating {
+  width: 600px;
+  height: 425px;
+  padding-top: 50px;
+  background-color: #212434;
+  display: none;
+}
+.rating__card {
+  display: block;
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #13e18c;
+  border-radius: 4px;
+}
+.rating__title {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.rating__point {
+  margin: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffdd3f;
+}
+.rating__review {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fbfbfb;
+}
+
+.buy {
+  width: 600px;
+  height: 425px;
+  padding-top: 50px;
+  background-color: #212434;
+  display: none;
+}
+.buy__card {
+  display: block;
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #13e18c;
+  border-radius: 4px;
+}
+.buy__title {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.buy__place {
+  margin: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffdd3f;
+}
+.buy__time {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fbfbfb;
 }

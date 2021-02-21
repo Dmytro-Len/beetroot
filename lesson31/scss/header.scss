@@ -29,14 +29,19 @@
     }
 
 }
-.header__item:hover .shp0 {
-    opacity: 1;
-    fill: $price-color;
-}
-.header__item:hover {
-    cursor: pointer;
-    border-bottom: 2px solid white;
-}
-.header__item:hover .header__pretitle {
-    color: $text-color;
-}
+// hover effects block
+// .header__item:hover .shp0 {
+//     opacity: 1;
+//     fill: $price-color;
+// }
+// .header__item:hover {
+//     cursor: pointer;
+//     border-bottom: 2px solid white;
+// }
+// .header__item:hover .header__pretitle {
+//     color: $text-color;
+// }
+
+// .active {
+    
+// }
