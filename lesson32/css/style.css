@@ -13,8 +13,8 @@ body {
 
 .header {
   width: 1040px;
-  height: 245px;
-  margin: 0 auto;
+  height: auto;
+  margin: 0 auto 106px;
   padding-top: 65px;
   position: relative;
 }
@@ -47,4 +47,74 @@ body {
   position: absolute;
   top: 40px;
   right: 130px;
+}
+
+.slider {
+  position: relative;
+  height: 400px;
+  margin: 0 0 auto 120px;
+}
+.slider__item {
+  position: relative;
+  display: block;
+  width: 440px;
+  height: 400px;
+  margin: 0 22.5px;
+}
+.slider__item img {
+  margin: 0 auto;
+}
+.slider__item:hover .slider__title {
+  bottom: 30px;
+  left: 40px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.slider__item:hover .slider__pretitle {
+  bottom: 12px;
+  left: 40px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.slider__title {
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #fff;
+}
+.slider__pretitle {
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.left-tick {
+  position: absolute;
+  top: 640px;
+  left: 10px;
+}
+
+.right-tick {
+  position: absolute;
+  top: 640px;
+  right: 10px;
+}
+
+.slick-dots {
+  position: absolute;
+  top: 420px;
+  width: 300px;
 }
