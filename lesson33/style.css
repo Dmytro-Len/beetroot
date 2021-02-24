@@ -4,14 +4,14 @@
 }
 
 .user {
-    width: 90vw;
-    height: 90vw;
+    width: 60vw;
+    height: 400px;
     margin: 10px auto;
     border: 2px solid rgb(99, 94, 94);
 }
-.user__item {
-    background-color: chocolate;
-}
+/* .user__item {
+    border: 2px solid chocolate;
+} */
 .user__name {
     font-size: 24px;
 }
@@ -22,9 +22,10 @@
     font-size: 18px;
 }
 .user__btn {
+    display: block;
+    margin: 0 auto;
     width: 200px;
     height: 50px;
-    margin-top: 20px;
     font-size: 16px;
     background-color: rgb(65, 172, 65);
     color: ghostwhite;
@@ -34,4 +35,10 @@
 .user__btn:focus {
     border: 5px solid rgb(63, 211, 71);
     outline: none;
+}
+p:nth-child(odd) {
+    background-color: rgba(0, 160, 252, 0.507);
+}
+p:nth-child(even) {
+    background-color: rgba(0, 252, 13, 0.411);
 }
