@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap");
+@import url('reset.css');
+@import url('fontawesome.css');
+
 .btn {
   width: 25%;
   font-family: "Josefin Sans", sans-serif;
@@ -12,7 +15,7 @@
   cursor: pointer;
 }
 .btn:hover {
-  background-color: rgba(133, 133, 202, 0.541);
+  background-color: #5474fd;
 }
 .btn--primary {
   width: 200px;
@@ -30,6 +33,9 @@
   text-transform: uppercase;
   color: #fff;
   background: linear-gradient(45deg, #5474fd 36%, #547dfd 37%);
+}
+.btn--primary:hover {
+  background-color: #fff;
 }
 
 .btn-wrapper {

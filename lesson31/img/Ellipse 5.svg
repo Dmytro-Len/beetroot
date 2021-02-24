@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 69" width="69" height="69">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #0d1121;stroke: #787c9b;stroke-width: 2 } 
+	</style>
+	<g id="best game">
+		<g id="score">
+			<path id="Ellipse 5" class="shp0" d="M34.5 69C15.42 69 0 53.58 0 34.5C0 15.42 15.42 0 34.5 0C53.58 0 69 15.42 69 34.5C69 53.58 53.58 69 34.5 69Z" />
+		</g>
+	</g>
+</svg>

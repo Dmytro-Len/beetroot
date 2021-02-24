@@ -1,0 +1,76 @@
+.slider {
+    // display: flex;
+    // justify-content: space-between;
+    position: relative;
+    height: 400px;
+    margin: 0 0 auto 120px;
+
+    &__item {
+        position: relative;
+        display: block;
+        width: 440px;
+        height: 400px;
+        margin: 0 22.5px;
+    }
+
+    &__item img {
+        margin: 0 auto;
+    }
+
+    &__item:hover .slider__title {
+        bottom: 30px;
+        left: 40px;
+        transition: 1s;
+    }
+
+    &__item:hover .slider__pretitle {
+        bottom: 12px;
+        left: 40px;
+        transition: 1s;
+    }
+
+    &__title {
+        position: absolute;
+        bottom: -50px;
+        left: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        color: #fff;
+    }
+
+    &__pretitle {
+        position: absolute;
+        bottom: -50px;
+        left: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #fff;
+    }
+
+
+}
+
+.left-tick {
+    position: absolute;
+    top: 640px;
+    left: 10px;
+}
+
+.right-tick {
+    position: absolute;
+    top: 640px;
+    right: 10px;
+}
+
+.slick-dots {
+    position: absolute;
+    top: 420px;
+    width: 300px;
+
+}
