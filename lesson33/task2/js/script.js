@@ -3,4 +3,5 @@
 // .then(data => {
 //     console.log(data)
 // })
-let test = new Promise()
+fetch('https://jsonplaceholder.typicode.com/posts')
+.then(material => JSON.stringify(material))
