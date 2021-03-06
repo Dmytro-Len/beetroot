@@ -12,11 +12,12 @@
     cursor: pointer;
 
     &:hover {
-        background-color: $hover-color;
+        background-color: $blue-color;
     }
 
     &--primary {
         width: 200px;
+       
     }
 }
 
@@ -32,10 +33,13 @@
         size: 16px;
         weight: 400;
     }
-
+    
     text-transform: uppercase;
     color: $white-color;
     background: linear-gradient(45deg, rgba(84, 116, 253, 1) 36%, rgba(84, 125, 253, 1) 37%);
+    &:hover {
+        background-color: #fff;
+    }
     // &:active {
     // outline: none;
     // }
