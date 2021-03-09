@@ -34,19 +34,38 @@ $(function() {
                 alert('results did not found')
             } else {
                 $.each(data.results, function(index, item) {
-                    $('#list').append(`<details><summary>${item.title}</summary><p class='movieDetails'>${item.overview}</p></details>`)
-
-                }) 
+                    $('#list').append(`<details><summary>${item.title}</summary><p class='movieDetails'>${item.overview}</p></details> \
+                    <button class='btn-del'>Close</button><button class='btn-add'>Add</button>`)
+                    document.querySelector('.btn-add').onclick = function() {
+                        localStorage.setItem(`name`, `${item.title}`)
+                    }
+                    document.querySelector('.btn-del').onclick = function() {
+                        localStorage.clear(`name`, `${item.title}`)
+                    }
+                })      
             }
-        })
 
+            
     })
 
 })
+     
+
+})
+
+
+
+
+// localStorage.setItem('theme', 'dark')
+// const theme = localStorage.getItem('theme')
+// localStorage.clear()
+
+
+
+
 
 //pattern
 
     // if (data.results.length > 10) {
     //     data.results.slice(0, 9)
     //     $('#list').append(`<div>${item.title}</div>`)
-    // }
