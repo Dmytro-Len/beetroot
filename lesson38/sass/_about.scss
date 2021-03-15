@@ -1,0 +1,31 @@
+.about {
+    padding: 120px 0;
+}
+.board {
+    display: flex;
+    width: 530px;
+    // margin: 0 auto;
+    justify-content: space-between;
+    margin: 84px auto 100px;
+    &__text {
+        width: 306px;
+    }
+}
+.btn-about {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 170px;
+    background-color: $btn-color;
+    border: 7px solid $phantom-color;
+    border-radius: calc(170px / 2);
+
+    &__title {
+        padding-top: 10px;
+        text-transform: uppercase;
+        color: $primary-color;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.slider {
+    
+    // position: absolute;
+    // top: 0;
+    &__content {
+        padding-top: 306px;
+        padding-bottom: 160px;
+        background: url('../img/bg-header.png'), no-repeat;
+        background-size: cover;
+    }
+
+    &__item-subtitle {
+        margin-bottom: 50px;
+        font-family: "Droid Serif";
+
+        font: {
+            size: 40px;
+            weight: 400;
+            style: italic;
+        }
+
+        text-align: center;
+        color: $primary-color;
+    }
+
+    &__item-title {
+        margin-bottom: 60px;
+        font-family: "Montserrat";
+
+        font: {
+            size: 75px;
+            weight: 700;
+        }
+
+        text: {
+            transform: uppercase;
+            align: center;
+        }
+
+        color:$primary-color;
+    }
+}

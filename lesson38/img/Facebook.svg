@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" width="41" height="41">
+	<defs>
+		<image width="43" height="43" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAE4UlEQVRYR9WZPUgkSRSAXw0YiOjuRSIKVz2JGt0KauocYqLBaWKi6AwmCsJ6GKjRLQb+JeeCgok6o+buBmbCjqkK50ZmU7WggSbnKmLWdbyiq6nuqemfmfZu78GAzlS9/vr1e6/ee03gfySkVlZK6TsA+AUAKCEko+sjhFzZts0B4IpzflbrtaqCRcBUKvVeCDEMAG+jQhBCPtm2neecf466x3PzcTZRSjOEkD8AwGPBODqctVwI8YFzXoizN5JlKaVvU6nUvmNJo/76+nqYmppyf2toaID9/X24v78P4rkSQuQ451dRoENhHWsemx730NAQDA4OQnt7O7S1tRmv9/j4CNfX11AsFiW8SYQQc5zzj2HAgbCU0iwhpOwKo6OjMDY2JiHjCIIfHBzA7u4uvLy8eLYSQvKlUikXpK8irAkUIWdmZqClpSUOo3Ht/Pw8nJycxAI2wjqP/ouuaXZ2FvCTpKBb+P2aEPKxVCrNma5TBovBRAhhuo++BqgOMzIyIv1aiRBihHP+yQ9cBmtZFlrUTU346JeXl5M0aJmup6cn6Onp0b9/EEJYnPOHinmWUjpMCMHIl4IKDg8PXxVUKV9fX/dkC5M7eCxrWRY+fqoUXFxcQGNjY1Wwt7e3gB8lHR0d0NTUFKjLD+xYF49rKS6s36q5XA4WFhZig6LvoY/roKgEU1Zvb2+gvsvLSxgfH9fXFBhj2TJYy7LQoX+rxaoIOjk5CZhP/RIFFvdMT0/LA8SRB8bYTx5YJwP8rb6s1qpo0dPTU6P1osLiDWN2UKJnBukGfhc4Pj6Gzs7O2C6AfqmktbUVVldXY/ksLvZnBj3QJGw6nf4ghMBqSkq1gaXD1pKbfYF2xhiTqVTCWpaFTtKHf1frArg3KditrS3AjxLGmOQsg41rER0wyG+i+izqCIP9CwCwPZFpJ04N8BqwGDNLS0t6kOFpxpVlhfrlR4A9Pz+HiYkJHfZXznmxZjdAxUr0C2D60VNQlBNM6QlzAzfAFhcXIZt1D41Y6evfCrA8AEwiWXNzM5ydVdc1JwWbz+dhbW1NGeobY0zWK+pQmCOE/Pmj5Nm+vj64u7tTOJ8ZY9jyu7DvCCGYEaRsb29Df39/LBdIKs/6TzAhxO+c800X1jkYsBT7Gf/OZDKws7Pzn8D6g0sI0aVadbdETKfTm0KI94rw6OgIuru7YwEn4bNdXV165/uVMSbzv8eylFKcVWHxLaUa69YKayi+cQCCwe+FdVzBzQr4f1zr1gJr6MPcLGCEdayLo5w3uADLxEKhENqOxPKVCov9cwRTh1vW3frLRWwa9/b2oK6uLgkmow7/4wcAtyzUNxiHHHrJqPx3Y2PjVSxsmMx8F0JQfxvuCTD9Dpw2B49gHBJLQQsjcBKjI6XT12/h1wiaqTRVDJp1YXbAJtIFRm1JDD3wOMWxkXZKKdCsaRJjDDC/Q5ksjGvULHZgYCDyJBGj/ebmBlZWVmTb5JNAi0aCxUUOMB53stDxC85oLcuSmcM0EMES8vn5ueJsFgC+4pAai+uwCA4dJisFzmQR87A8khMQtCaO6uW5H0Uiw2rQOGDGkaTHl6NczFnznRCyadv2pinig/TEhtWg8Y3NsPOeIQz8m/OmphgUQGE3XDWsIRix4Ch7zYS9UxhE1N8Tg416wVrW/QP+rGRK56oJ4QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Our Amazing Team">
+		<g id="Team">
+			<g id="Kimberly Thompson">
+				<g id="Social ">
+					<use id="Facebook" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

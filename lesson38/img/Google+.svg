@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 41" width="40" height="41">
+	<defs>
+		<image width="43" height="43" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAFkElEQVRYR9WZPSxtSxTH1+xOhOc1REje7FNRPQpahE6BSJTOEZ2PPC8KNC4aFPLuTYhKfEWj4RU0CFoKV4XmzL4JEd15RBSSMy//nT07c7b9cb6u5E4ijrPn47f/s9aaWQujX6ixYrByzhuIqIWIKgzDaJBSVmBexlgqnU5/JyKLiK4ty8LnvFvesJzzVsMw4lLKbkBmSZBijO2n0+lv+YDnDMs5jzPGZoiIZwkY1O1MSjlrWdZZtvNkDcs554yxdSJqDZq8srKSBgYG6PX11e2ytrZGb29vgTyO0n9blgVTCW1ZwXLOE4yxf/y2u6+vj1paWqipqYnKy8t9F7u/v6e7uzs6PDykg4MDvz4pKeWAZVn7YbSRsJzzL862u/OUlJTQ4OAg9fb2UnV1dZQgGc8BvbOzQ7u7ux/GOcAbQROGwsZisa9Syr/0wSMjI4SfQtvj4yPNzs7S2VmmyYYBB8I6Ww8btZtSsxig+osuLi7S+rq7jP0oCNgXFnGTMXalg15duX8WKuqH8cvLy4QfrcGG27zhzRfWNE2hh6ZibX3YW/oAfxdCNOpjPsDGYrEZKeUX1amzs5OWlpaKrqbfhF5gKSVC2lfVNwOWc17BGIOq9olUX19Pe3t7nwKqFkEYfHp6Un9aQgjTF9ar6urqKrW1tUXCHh8f0/7+Pt3c3NDDw4PbH3H34uIicrzeYWNjgxYWFtyvdGfLUFa3VQT57e3tyIWmpqZs9Ts6Oqimpsb+/Pz8TD09PTQ/Px853q9DY2Ojfuq5tuvCeiPAysoKtbe3hy4G1fr7+zPMRX2HgfgcdKrl4mxSShPHsQ475hyp9jyXl5dUVlYWCqscwhstmpubbXW3trYIn9GgOEwEimMHwhr66UIpU3BhTdPEUYI7KVVVVdH5+XnkFipYAAFMNQDBfgEIJ0XDDkBp/QXCFvCYwqYQIqHDIurjEk2Tk5OUSCQiYTc3N127VBCAVOqdnJy4c+QK6wlj50KIVh1WqpmzPQSw1fF43FYRtomtg3rYRiyG7VZOdnt7a5sGlFbmpe+GVxkPbEoI8XtBsFgAAHBGAKswhQiBl9CdzW+b8AJBzXtACCFYwbD6YlAWqkJRpawCgsJ4IbyIsmPlfH7APwUWcHAkQEFJKI0Gs4BN5+tgRYeFWgACGJwKBwmgYYuA1qNEgQ72QwjBfUNXNg6mvN6rIFRVz/A5zC7Dwo3nnvshGiCdiGMCXLSj7q9BMVYBKPvNB/bl5cXeJdUYY7PJZHJGP8GQFLpXdsTIsJMGdgpngbK4yOjHqnqG8XqsjQzcTgd9Z/CVlLIHyaQOi1Qb10O7IaWemJgInB82icsLfqsYCzgoCXg0qI8+ubbp6Wk9ofxPSskty0p5b11IhbvU5FH3AygAJ/NeAxEBhoeH8wJFIum5ltpHLZi8l+9uxph720ZNYG5uLlIYqKtss66uLq+bllpkfHw8o7bg5GJ2CvwhrTFNE5WRP9Tg09PTnGsDkW8X0AE1ha4ud2PRy44CrqN5x6Hgxhg7Vd9newnPF1CNe39/p9HR0Yw6gpSyUc9wg7LbDNv9jKTRu/2MsW/JZHJMFyGoboDEEbVU1xx+JrAXFLVcIYR9XY2ERQcnzYFh/6YGFBsYwX9oaMjOSrSGUNXgV1UMrXX5ARerjORXNiIigLYGFZqzqSKilJShMFTA/QFHam1tbWSuplSDtx8dHVFAzfZaSpkIq4hHwjomARuG09k5mrfhtCstLXWTQ/05thqHhxAiqDaL7v86oKmwqJIVrJrAqSyinOPacYEh64eUciyqiBwYZ6MWR4nJMIwxKKFHi6hxnueAnLEsK7Bw7DdfTsr6HCDdhmG0wimI6M8I4GvYfjqd3sjnPzWYuyBYH3i/f46k8oXLOs7muK2f0v1/ovclWWM9y38AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Our Amazing Team">
+		<g id="Team">
+			<g id="Rico Masi">
+				<g id="Social ">
+					<use id="Google+" href="#img1" transform="matrix(1,0,0,1,-2,-1)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

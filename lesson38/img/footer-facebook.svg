@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 40" width="41" height="40">
+	<defs>
+		<image width="43" height="44" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAsCAYAAAD8WEF4AAADIklEQVRYR+2ZsXIaMRCGd3kAkvTMRKKDJnZHZyraJC1N7CfAaago7Bl6k44uTkNF4TxBHCq64IbyJArq2DzAbWYZHbk7joOT7pgwk51hxhi0+vhvVyutEE7I8IRYwQlWCPEaAC5KpVKTiM4AgF/8v7DNEFH7vv8IAD+11jNbgaxghRDNUqn0iYguLSbWRHQPAF+01s9ZxmeCFUKcIeIdADSzTLLju89ENMgCfTBstVq9I6LrHCDjLljpK601h0mq7YXluETEHyYe9/mz/pyIbrTWt2kOUmHNY/9aNGgAiIj3nudd7QLeCWsU/QUAwloui4FpwImwx3r0u34LEX3WWnPyRSwRtlqtDoioYyFMbkOI6Dy+Jm/B8hpqEiq3iS0dzZRS5+GxW7BSSnXsOE0JB17SuICsLQIrhLhERM5+Z2u1WlCr1TZ+lssljMfjrH61UkomwkopOfu5vltbuVyG0WgE9Xo94mM6nUK73c7s1xSMtbobZYUQAhE5BJxsOBwCqxo3W1gA+K6U+hCHvTZ13xq2UqnAZDJJHO8AC0T0hjc9G2WllA8A8N6aFAAajcY6BALrdrs2cbqFQEQftdYPYdjfCXvRTOxxWI5RVtTVEPHW87ybMCzZOOVHzy82Tqper7dx0+/3YT6fr9+vVqvN3xbzrON2DetSCDqdDvBrn7nELJ8wlFLN/7BJKv8TyobBikqwSBjwhFJKqwQ7EuzfBDOwfNJ8tS9R0j4vStmkpSv3opDXOrtVFIQQzuW2KGW3ym0eG5mCYLc3MiZu+ex+YRu3RcAmbhFNJXPafBcAu1BKbU7XSccabpy9s1E3bW9g4y+samQ/Gzhz2SfYAKWMeVJKRU4tp30UN7HL/S1ONqtwcFU4U5MjBMzx+9Z18ozjvymlEvu+hzTm+GR5LIV3giYmWFwF0/cqPCSC+p/2FPb2Z4PBBfa/Ftzuz6WZHP6lpl/L3T3rKhfy94KIA9/3B4feLRysbAyam3ecBNx8yLqtXHAPNgtkMLcVbKiA8DUS39wEV0tcGuOrxxMA8L0Bx/3j0a+WMi5FuX3dSdncKA509Acrs6Q8DygG4AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Bottom Footer">
+		<g id="Social">
+			<use id="Facebook" href="#img1" transform="matrix(1,0,0,1,-1,-2)"/>
+		</g>
+	</g>
+</svg>

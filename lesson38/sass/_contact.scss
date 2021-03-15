@@ -1,0 +1,27 @@
+.contact {
+    background-image: url('../img/bg-contact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $main-color;
+    padding: 120px 0;
+    &__form {
+        position: relative;
+        margin: 75px 0;
+        display: flex;
+        height: 210px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+input[name=name],
+input[name=email],
+input[name=text] {
+    width: 455px;
+    height: 52px;
+}
+textarea[name=area] {
+    width: 455px;
+    height: 210px;
+}

@@ -1,0 +1,127 @@
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.btn {
+    display: block;
+    width: 240px;
+    height: 66px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: $btn-color;
+    font-family: "Montserrat";
+    font: {
+        size: 18px;
+        weight: 700;
+    }
+    color: $primary-color;
+    text : {
+        align: center;
+        transform: uppercase;
+    }
+    &-form {
+        position: absolute;
+        top: 250px;
+        left: calc(940px / 2 - 240px / 2 );
+    }
+    &:hover {
+        outline: 2px dotted $primary-color;
+    }
+
+}
+.section__title {
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+    font: {
+        size: 30px;
+        weight: 700;
+    }
+    color: $main-color;
+    text : {
+        align: center;
+        transform: uppercase;
+    }
+
+    &--white {
+        color: $primary-color
+    }
+}
+.section__post-title {
+      font-family: 'DroidSerif-Italic', serif;
+
+    font: {
+        size: 16px;
+        weight: 400;
+        style: italic;
+    }
+    color: $text-color;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.card {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+    &--sm {
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    } 
+    &__item {
+        &--sm {
+            margin-top: 50px;
+            min-height: 394px;
+            background-color: $primary-color;
+        }
+    }
+    &__pic {
+        display: block;
+        width: 68px;
+        margin: 0 auto 28px;
+        &--sm {
+            width: auto;
+        }
+    }
+    &__title {
+        margin-bottom: 18px;
+        font-family: "Montserrat";
+        font : {
+            size: 18px;
+            weight: 700;
+        }
+        text-align: center;
+        color: $main-color;
+        &--sm {
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+        
+    
+    }
+    &__desc {
+        font-family: "Roboto Slab";
+        font: {
+            size: 14px;
+            weight: 400;
+        }
+        color: $text-color;
+        text-align: center;
+        &--sm {
+            margin-top: 4px;
+            font-style: italic;
+        }
+    }
+}
+.align {
+    &-right {
+        text-align: right;
+    }
+    &-left {
+        text-align: left;
+    }
+}

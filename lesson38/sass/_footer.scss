@@ -1,0 +1,14 @@
+.footer {
+    padding: 20px 0 28px;
+    position: relative;
+    &__inner {
+        display: flex;
+        width: 190px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    &__copyright {
+        position: absolute;
+        top: 30px;
+    }
+}

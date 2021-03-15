@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 41" width="40" height="41">
+	<defs>
+		<image width="43" height="43" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAFjklEQVRYR9VZPywtSxj/5iQKEd5theTtngbVo6BFUClcjc6/qITkvRuFUHieAolIFG6iEQedBoWOoEXi3QrN2ZEQofKI6M68/ObtbGbHnt0557jF+5KTc3Z39pvf/Ob3fTPfHEb/I2OlYnUcp5GIfiMihzHWpvsTQpwQ0TMRnXLO/y61r6LAOo7TlkqlBoUQX4noiyWIZ8bYXi6X2+Oc71u+E2pWEFiAZIz9SUQhBovomAshZjnnm4W8awXWcZwvqVRqw2cy0n95eTmNjIwEzyoqKmhjY4Oenp7i8JwIIb7ZSiQRrOM4XxljG1HT3dfXR62trVRXV0e1tbWRoF5eXuj8/JwuLi4k+Ah79gFnkliOBes4zpAPNOQHIEdHR6m6ujrJf+g5gG9tbdH6+jq9v7+H9cjYSjab/RbnMC/YKKDDw8M0MDBQMMgoABMTE3RwcGACzmSz2eF8gCPB+lO/q780Pj5O+Hymra6ufmDZl8RKVD8fwDqOg3x5qWv0ZwDVwUD3j4+PwS0hRDvnHDk6PnW5rnuspyZM/eTk5GcS+sFXJpOhxcVF/T5SWxPnHAtKYCFmTZ22tbXR2traTwWqnJuAGWN/ZbPZ2bxgXdf1sGyiAfLm5SXUkGy7u7uEz9nZWahxQ0MDtbS0yKCsqalJdDQzM0M7OzuqHVKaq7MbMGuyaqPTq6srmp6eJnwn2dTUFA0ODsY2Oz4+lilRmcluAFbXqg2rAIjOkTthikF8V1VV0f39vWQbEa/MhoD+/n65iPjGPc9zA/D44WcASEBaklMA7O3tlYBgcawdHh6GUt7R0VGsJPB8bGwsGKAfaHLHJpk1JZDkcHNzkxYWFkIDA9Pfv3+nyspKCR7sKsM1WIZhNnCdz25ubqinpydSChJsOp1eEUL8jt82EkDAIJgACMzBOjs7A0mYM6OzC5lgyY0zY3U79TxP7vIkWNd1kYBbbSSANvX19bIvSAEMgzWdLRMsBoYBwmzAQuea1gPdKrBBykrSqw5WtTWcywFgIMpKBEue50mcCqxQjm3Agh0EGaZeAdWj3tS8znwRzJYGFgNSWlX6U9OMhUAFUzEBhnfMmSqJWT3HAjhWJ6VZM9qR3jo6OgJJYHBgN86SwCKPoUJNzLGqEwBGx9CmWm71oMNvSAXg1QpnIwEbZoNsgCpgbm4uduTmQ6VhdR/XSg5qhUOaQ37G/SQzmP3heR7K/f8CLJ1OzwohULVKwxptW7KANRX5kMPr62uQb5W/QoDinaamJr3s2fQ8bygA65fY2MdKs9GVaqtHOnSLDIH3MQiAbG5uloPRV7Q4Zk2NCyGGOeeymNQ3Mtjo/oKbhUgBORXTCwNwm2kuJLj8bSI3wQJ9sIezlYK+9Jr72SRtRj03JBAstSGwphS6u7tpeXk5sT8FNmmDkuiIiIzNN+kSCIHFhb5HwPX+/r48wIgzgL2+vpYSsKkG8vl6eHig9vZ2/fGt53myalFm1mCNfmUrn0N/0GNccAAsAkjfC9iwaLYxzxGiKtwPpbi+XYRDRPP29nbe/hG9pTAKxxEHHvue5+GEMmSRhxyu6wYrGlpDvyiVy8rKiiEt9p0IoLdCiEazDP+gWeUVp4aMMQD+Vd1DWb60tCQrgc8yo96C23+EEG35ThXjzrqgXyzDMvcq+4xDj6hjoySgeZnVGMZR0p7a5Kj76iy2q6srMVuod7AM393d0fz8vF69qsexjEZmg6jp9SWBg7LIoh96dl1XZg5TIgCIZfft7S3f2Sy6PMUhdZRGrQIsD2gcKgN0oOMStQs2/1Drvo2vxJNv04lftuMMqljQt4yxTC6XW7FhU++/YLCanhtTqdQQotfUdARLPxCsuVzuhHOOGCjKigYbwTg2yObfTM+2f27YoP80sDadldrmX61nGFnOW/DqAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Our Amazing Team">
+		<g id="Team">
+			<g id="Kimberly Thompson">
+				<g id="Social ">
+					<use id="Pinterest" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

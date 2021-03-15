@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 41" width="40" height="41">
+	<defs>
+		<image width="44" height="43" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAArCAYAAAADgWq5AAAFVUlEQVRYR9WZPUwjRxTH31iiQAiSNCBEkV0aoEpcQIsRUFHkaOgAIxqEkEJEwUeBCA00KHcSBQ2fJQ3nggIJBG4BiaOCyjspEIImBITomOi/2tmbHc9+2Jg75Uku7J2P3755H/OeGf3PhFWC17KsX4mok4h+ZIxl1DWFECdE9EBEec75l7fuVzawZVmZVCo1LIT4ANCEIA+Msc+vr6+fOee5hHMCw0oGtizrA2PsdyIKaLKMzbkQYoFzvl3K3MTAlmVZjLHNKND6+noaGRmh5+dnl6GmpoY2Nzfp/v4+iulECDHCOedJwBMBe1oFbNHRDwwMUGdnJ7W3t1NdXZ1xz8fHRzo7O6Pz83P3BQzyIIT4g3O+FQcdC2xZVtbTbGAtaHJoaIgaGxvj9gg8B/zOzg6tr6/Ty8tL4JkQYpJz/ilqwUhgEyxAx8fHqba2tiRQ0+CxsTE6OUEQ+SqMsU+FQmEybPFQYBPsxMQE4VNJWV1dJXy0UAibNpqHERhxlTF2rNrse8BKSNi17pxCiLQpbhuBbdu+ICIkA1feE1buYdA0dxzH1k+zCNiyrEnG2F9yYF9fH62srFTSCkLX0qEZY38WCoWFgI2rXyzLQmp1pCk0NDRQPp//JrByk6mpKdrf35dfEe5szjlSuysBDeuONjMzQ9ls9k3ANzc3hE9ra2tonFY3eHp6cmO6FC8+fzQCq7ZbXV1NFxcw5WK5urqipqamSABAzs7O0unpqb/A8PCwG7v39vbcsIjvJkEiuru7k48Ctuxr2Eu9MAdXohwNINfX17S9vW2ERnLo7+93NWsSZESs0d3dbZy/tbVFy8vLqpb9iKECBzLa0dGRq0WTQEvQHDaGo3R0dASGQYMAihK80NLSknFIlFn4wLZtI1C7ZxRlDngOGEBJATBeoqenx/3JlAxUsihYOU4zi5zjOLjGfnU627aRI3EJj4270C4AdYHG4VzS0cI0jLuEfir6WM0svjiOk9aBRRL7lS8EaNhqOYLTaWtri5yqn5LjOK41qCaRGBi2B4crV+CwcVJRYBw57LAcDcPO9cuOCb6iwNjg8PCQ5ubmSobG6eBl4yQJMEqUn5M4HcaEOV4UCMIkwmUSSQLsRwlc0qenp2PX1cNb3IQkzibX0IDzjuO4Ra/vdM3NzR+FEKiGXUENlqSqgKaxuJqCTeBJTUHOTafTagm17TiOe6lRMx3Kdz8bxGkDDgdIHLGaRHRYmYaT2K2cC6dG2pbiVdVuBaIC42r5jxyEanhxcbFIWbj4QFtxGsVEJAeMDUvxYSY0Pz9Pu7u7KvBP8ooZuF6q6Rmjj4+PQ6tigEO7JnBoB+GrVFDseXt7S11dXeq7+Gk5oGF8QfvJq+XcCd+y2pCEBu12cc790rqoRFLvFFgkl8tRS0tLXACoyHODdi8dx/FryyINe1pGxezf3HH739jYoKqqqopARS2ilUckhAho1wiMH/UQl8lkaG1t7V2BddiwhkpYXwIRA3bzi6R8T3vWYYnoUgiRUYtPyRHV+UG3Eg3oH1TohYWFRAkl6XEMDg66SUqRfz1YY/M7rrcGe4amfWgsnDR1R0EjOxoagpGwoTasbuS1rZBlfPPAc5RRo6Oj1NvbmziKIAocHBy4bSmlKpbb/Y1uftzfCrHtVi9ywKYB/ZtJa7Bv27bdKkK/f6CgRJJBU1vNXto6OSFE1mSz+n6JgOUkr7GNpoZ7Da2AwATQE45tZMc6XRSM1yFCz6tccBw/XnwriVZVlpI0rL8E7DuVSmXh1bqNG174Eg7s/YMU7GKXcFRvAja9gOF/kIc4RyqBN9gMLGXi9xr7Hwygt0qZsO9WAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Our Amazing Team">
+		<g id="Team">
+			<g id="Kimberly Thompson">
+				<g id="Social ">
+					<use id="Twitter" href="#img1" transform="matrix(1,0,0,1,-2,-1)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,33 @@
+.team {
+    padding: 120px 0;
+    background-color: $bg-color;
+    &__user {
+        width: 221px;
+    }
+    &__user > img {
+        display: block;
+        border-radius: calc(221px / 2);
+    }
+    &__desc {
+        margin-top: 48px;
+        font-family: 'Roboto Slab', serif;
+
+        font: {
+            size: 18px;
+            weight: 400;
+        }
+        text-align: center;
+        color: $text-color;
+    }
+}
+.social {
+    width: 140px;
+    margin: 12px auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &--center {
+        width: 90px;
+        justify-content: space-around;;
+    }
+}

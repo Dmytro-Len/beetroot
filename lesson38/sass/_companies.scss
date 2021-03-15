@@ -1,0 +1,12 @@
+.companies {
+    padding: 60px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item:hover {
+        outline: 1px dotted $btn-color;
+    }
+}

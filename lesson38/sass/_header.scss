@@ -1,0 +1,54 @@
+.header {
+    position: relative;
+    &__logo {
+        font-family: 'Pacifico', cursive;
+
+        font: {
+            size: 26px;
+            weight: 400;
+        }
+
+        color: $btn-color;
+        text-transform: capitalize;
+        animation-name: logoAnimate;
+        animation-duration: 2s;
+
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        position: absolute;
+        top: 50px;
+    
+
+        font-family: 'Montserrat', sans-serif;
+
+        font: {
+            size: 14px;
+            weight: 400;
+
+        }
+
+        color: $primary-color;
+        text-transform: uppercase;
+    }
+}
+.menu {
+    &__list {
+        width: 485px;
+        margin-left: 400px;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__item > a {
+        color: $primary-color;
+    }
+    &__item:hover {
+        cursor: pointer;
+        outline: 1px dotted $btn-color;
+    }
+}
