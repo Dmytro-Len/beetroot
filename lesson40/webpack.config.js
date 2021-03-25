@@ -20,7 +20,21 @@ module.exports = {
           "css-loader",
           // Compiles Sass to CSS
           "sass-loader",
+          {
+            loader: "sass-loader",
+            options: {
+              implementation: require("sass"),
+              
+        } }
         ],
+      },
+    ],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
       },
     ],
   },
