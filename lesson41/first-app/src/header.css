@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(236, 205, 79);
+}
+.navigation {
+    display: block;
+    width: 400px;
+    height: 150px;
+    background-color: grey;
+}

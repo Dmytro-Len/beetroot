@@ -1,15 +1,20 @@
 import React from 'react';
-import ReactDOM, { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App'; //импортировать функцию-компонент (указываем название) из файла
 import reportWebVitals from './reportWebVitals';
-// import Main from './components/Main';
+import Header from './header';
+import Main from './main';
+import Footer from './footer';
 
-ReactDOM.render(
+ReactDOM.render( //Означает буквально: "отрисуй мне"
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Header /> 
+    <Main /> 
+    <Footer />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root') //указываем в какой тег/класс/айди отрисовать содержимое выше
 );
 
 // If you want to start measuring performance in your app, pass a function

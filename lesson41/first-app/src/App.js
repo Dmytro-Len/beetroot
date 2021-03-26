@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'; //импортировали лого из этой же папки
+import './App.css'; //импортировали стили из этой же папки
 
-function App() {
+function App() { //создаем компонент
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +22,5 @@ function App() {
   );
 }
 
-export default App;
+export default App; //обозначаем наш компонент для импорта по умолчанию (т.е. если мы вызовем в другом файле
+// import App from "./App") то все будет работать
