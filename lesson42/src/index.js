@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
+// import App from './App';
+import Nav from './components/Nav/Nav'; 
+import Hello from './components/Hello/Hello';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Nav list={['Home', 'Products', 'Contacts']} />
+    <Hello />
   </React.StrictMode>,
   document.getElementById('root')
 );
